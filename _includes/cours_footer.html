@@ -1,0 +1,68 @@
+    <script src="{{ 'jquery-2.1.4.min.js' | prepend: site.jqueryurl }}"></script>
+    <script src="{{ 'lib/js/head.min.js' | prepend: site.revealjsurl }}"></script>
+    <script src="{{ 'js/reveal.min.js' | prepend: site.revealjsurl }}"></script>
+    <script>
+      (function(){
+        var el, elhtml;
+
+        // wrap all <h1> and <h2> in <section>
+        el = $('div.slides');
+        elhtml = el
+          .html()
+          .replace(/(<h1[^>]*>)/g,'@slide@$1')
+          .split('@slide@')
+          .map(function(hs){
+            var ahs = hs
+              .replace(/(<h2[^>]*>)/g,'@slide@$1')
+              .split('@slide@');
+            return (ahs.length > 1 ? '<section>\n' : '')
+              + ahs.join('</section>\n<section>\n')
+              + (ahs.length > 1 ? '</section>\n' : '');
+          })
+          .join('</section>\n<section>\n')
+          + '</section>\n';
+
+        el.html(elhtml);
+
+        // make all <li> as fragments
+        $('li').addClass('fragment');
+        // make all non fist <p> as fragments
+        $('p:not(:first-child)').addClass('fragment');
+        // split <p> and <li> to fragments
+        $('p:contains(//), li:contains(//):not(:has(p))')
+          .each(function(){
+            elhtml = $(this).html().split('//');
+            elhtml = elhtml.splice(0,1)[0]
+                      +'<span class="fragment">'
+                      + elhtml.join('</span><span class="fragment">')
+                      + '</span>';
+            $(this).html(elhtml);
+          });
+
+        // start reveal.js
+        Reveal.initialize({
+          history: true,
+          slideNumber: true,
+          transition: 'linear',
+
+          math: {
+            // mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+            config: 'TeX-AMS_HTML-full'
+          },
+
+          dependencies: [
+            { src: '{{ 'lib/js/classList.js' | prepend: site.revealjsurl }}' },
+            { src: '{{ 'plugin/highlight/highlight.js' | prepend: site.revealjsurl }}', async: true, callback: function() {
+                $('code').each(function(i, block) {
+                  hljs.highlightBlock(block);
+                });
+                // hljs.initHighlightingOnLoad();
+              }
+            },
+            { src: '{{ 'plugin/zoom-js/zoom.js' | prepend: site.revealjsurl }}', async: true },
+            { src: '{{ 'plugin/math/math.js' | prepend: site.revealjsurl }}', async: true }
+          ]
+        });
+      })();
+    </script>
+

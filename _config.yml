@@ -1,0 +1,11 @@
+# Site settings
+title: TeX4 - LaTeX et HTML
+description: Cours sur (Xe)LaTeX et HTML(5) de Licence 2ème année de l'Université de Lille
+url: "https://ktzanev.github.io/tex4lille1/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+revealjsurl: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/" # the path to RevealJS
+jqueryurl: "https://code.jquery.com/" # the path to jQuery
+bootstrapurl: "https://netdna.bootstrapcdn.com/bootstrap/3.1.1/" # the path to Bootstrap
+
+# Build settings
+markdown: kramdown

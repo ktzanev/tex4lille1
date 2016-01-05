@@ -39,6 +39,14 @@
             $(this).html(elhtml);
           });
 
+        // set the default class for highlight.js
+        $(':not(pre)>code, pre:has(code)').each(function(){
+          var el = $(this);
+          if (!el.attr('class')) {
+            el.addClass('{{page.codelang}}');
+          }
+        });
+
         // start reveal.js
         Reveal.initialize({
           history: true,
@@ -59,8 +67,8 @@
                 // hljs.initHighlightingOnLoad();
               }
             },
-            { src: '{{ 'plugin/zoom-js/zoom.js' | prepend: site.revealjsurl }}', async: true },
-            { src: '{{ 'plugin/math/math.js' | prepend: site.revealjsurl }}', async: true }
+            // { src: '{{ 'plugin/math/math.js' | prepend: site.revealjsurl }}', async: true },
+            { src: '{{ 'plugin/zoom-js/zoom.js' | prepend: site.revealjsurl }}', async: true }
           ]
         });
       })();

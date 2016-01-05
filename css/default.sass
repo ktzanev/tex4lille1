@@ -2,3 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8"
+
+ul > li > ul
+  padding-left: 0px
+
+  > li
+    display: inline-block
+    padding-left: 5px
+    padding-right: 5px
+    &:before
+      content: "\25cb  "

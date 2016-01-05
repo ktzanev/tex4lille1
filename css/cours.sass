@@ -3,29 +3,56 @@
 ---
 @charset "utf-8"
 
+.reveal
+  font-size: 28px
+
 .reveal section
   .cours
     color: yellow
+
   .cours.short
-    font-size: 2em
-  .cours.long
     font-size: 1.4em
+    font-weight: bold
+
+  .cours.long
+    font-size: 2em
+
   .siteurl
     color: greenyellow
-  h1
-    font-size: 35px
+
+  h1, h2, h3
     color: #700
+  h1
+    font-size: 1.3em
+  h2, h3
+    text-transform: none
+  h2
+    font-size: 1.2em
+  h3
+    font-size: 1.1em
+
+  p
+    margin-top: 3px
+    margin-bottom: 4px
+
   em
     color: #A00
+
   code.hljs
     display: inline
     padding: 0px 7px
     margin: 1px 0px
+
   pre
     width: auto
+    font-size: .84em
+    margin: 0px 0px 3px 0px
+
   pre > code.hljs
     display: block
     padding: 7px
+
   .smaller
     font-size: 0.84em
-    margin-top: -21px
+
+@import 'monokai_kpym'

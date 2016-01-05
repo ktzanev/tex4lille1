@@ -1,7 +1,9 @@
 ---
 layout: cours
-title: Cours 1
+title: Cours d'introduction
+shorttitle: Cours 0
 shorturl: git.io/vuGEG
+codelang: tex
 ---
 
 # Les fichiers texte
@@ -21,10 +23,10 @@ shorturl: git.io/vuGEG
 
 # Langages à balises
 
-- HTML : `<b>en gras</b>`
-- LaTeX : `\textbf{en gras}`{: class="tex"}
-- Markdown : `**en gras**`
-- MediaWiki : `'''en gras'''`
+- HTML : `<b>en gras</b>`{: class="html"}
+- LaTeX : `\textbf{en gras}`
+- Markdown : `**en gras**`{: class="markdown"}
+- MediaWiki : `'''en gras'''`{: class="mediawiki"}
 - ...des dizaines autres existent
 
 # (La)TeX et HTML
@@ -55,6 +57,7 @@ shorturl: git.io/vuGEG
     </body>
   </html>
   ~~~~~~
+  {: class="html"}
 
 - [LaTeX](https://fr.sharelatex.com/project/54bb8a74ef302e673191ee38)
  
@@ -65,15 +68,14 @@ shorturl: git.io/vuGEG
     Hello world!
   \end{document}
   ~~~~~~
-  {: class="tex"}
 
 # (La)TeX : comment ça fonctionne
 
 - Si le document (principal) est un fichier texte appelé _monfichier.tex_, on compile d'une des façons suivantes:  
 _(en fonction du compilateur choisie)_
-  - `xelatex monfichier.tex`
-  - `lualatex monfichier.tex`
-  - `pdflatex monfichier.tex`
+  - `xelatex monfichier.tex`{: class="code"}
+  - `lualatex monfichier.tex`{: class="code"}
+  - `pdflatex monfichier.tex`{: class="code"}
 
   et le résultat est un fichier _monfichier.pdf_ si tout se déroule bien.  
   //Sinon, les messages d'erreur en plus d'être affichés à l'écran se trouve dans le fichier _monfichier.log_.

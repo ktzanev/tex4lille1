@@ -27,18 +27,17 @@
         // make all <li> as fragments
         $('li').addClass('fragment');
         // make all non fist <p> as fragments
-        $('p:not(:first-child)').addClass('fragment');
+        $('p:not(:first-child):not(.nofragment)').addClass('fragment');
         // split <p> and <li> to fragments
-        $('p:contains(//), li:contains(//):not(:has(p))')
+        $('p:contains(!!), li:contains(!!):not(:has(p))')
           .each(function(){
-            elhtml = $(this).html().split('//');
+            elhtml = $(this).html().split('!!');
             elhtml = elhtml.splice(0,1)[0]
                       +'<span class="fragment">'
                       + elhtml.join('</span><span class="fragment">')
                       + '</span>';
             $(this).html(elhtml);
           });
-
         // set the default class for highlight.js
         $(':not(pre)>code, pre:has(code)').each(function(){
           var el = $(this);
@@ -46,6 +45,11 @@
             el.addClass('{{page.codelang}}');
           }
         });
+        // pre are also fragments
+        $('pre').addClass('fragment');
+
+        //make all <a> external
+        $('a').attr('target','external');
 
         // start reveal.js
         Reveal.initialize({
@@ -53,10 +57,10 @@
           slideNumber: true,
           transition: 'linear',
 
-          math: {
-            // mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
-            config: 'TeX-AMS_HTML-full'
-          },
+          // math: {
+          //   mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+          //   config: 'TeX-AMS_HTML-full'
+          // },
 
           dependencies: [
             { src: '{{ 'lib/js/classList.js' | prepend: site.revealjsurl }}' },

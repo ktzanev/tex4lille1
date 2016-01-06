@@ -12,3 +12,6 @@ highlightjsurl: "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/" # the
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM

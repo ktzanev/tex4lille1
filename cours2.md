@@ -1,7 +1,7 @@
 ---
 layout: cours
-title: LaTeX - Cours 1
-shorttitle: Cours 1
+title: Cours 2 - (Xe)LaTeX
+shorttitle: Cours 2
 shorturl: git.io/vuZkr
 codelang: tex
 ---
@@ -29,26 +29,26 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
 - `_`   : indice (pour l'imprimer `\_`)
 - `^`   : puissance (pour l'imprimer `\^`)
 - `~`   : espace insecable (pour l'imprimer `\~`)
-- `{ }` : début et fin de bloque (pour l'imprimer `\{` et `\}`)
+- `{ }` : début et fin de bloque (pour les imprimer `\{` et `\}`)
 - `#`   : argument de macro (pour l'imprimer `\#`)
 - `\`   : spécial (pour l'imprimer `\textbackslash, $\backslash$, $\setminus$, \symbol{92}`)
 
 ## Symboles particuliers
 
-- Accents, pas besoin avec unicode, mais pour info :  
+- Accents, pas besoin avec unicode, mais pour info :
   `\'e` <code>\`e</code> `\^e` `\"e` `\~e` `\c{c}`
-- les tirés :  
+- les tirés :
   `$-$` (moins), `-` (césure), `--` (diapason), `---` (dialogue)
-- les points de suspension :  
+- les points de suspension :
   `\dots`, `$\ldots$`, `$\cdots$`
-- ligne horizontale :  
+- ligne horizontale :
   `\rule{\linewidth}{0.5mm}`
 
 # Les éspaces
 
 ## Les caractères d'espace
 
-- espace : au début de ligne, consecutif, en fin de ligne, forcé `\` , en mode math `$xy$`
+- espace : au début de ligne, consecutif, en fin de ligne, forcé `\` , en mode math `$x y$`
 - espace insecable : `~`
 - tabulation
 - passage à la ligne : un, deux, après `%`, `\newline`, `\\`, `\\*`
@@ -73,45 +73,42 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
 - `\vspace{...}` et `\vspace*{...}`
 - `\smallskip`, `\medskip` and `\bigskip`
 - `\vfill` identique à `\vspace{\fill}`
-- `\linespread` espace entre les lignes. Exemple: `\linespread{1.5}`
-- `\parskip`. Exemple : `\setlength{\parskip}{1em}`
+- `\linespread` espace entre les lignes, exemple: `\linespread{1.5}`
+- `\parskip`, exemple : `\setlength{\parskip}{1em}`
 - Il y a aussi le package `setspace`.
 
 ## Les changements de page
 
 - `\newpage`
 - `\clearpage`
-- `\cleardoublepage` il faut `[twoside]` dans `\documentclass`
+- `\cleardoublepage`, il faut `[twoside]` dans `\documentclass`
 
 # Les alignements
 
-- Par défaut : justifié
-- À droite
+- par défaut : justifié
+- à droite
 
   ~~~~~~
   \begin{flushright}
     Texte aligné à droite
   \end{flushright}
   ~~~~~~
-  {: class="tex"}  
 
-- À gauche
+- à gauche
 
   ~~~~~~
   \begin{flushleft}
     Texte aligné à gauche
   \end{flushleft}
   ~~~~~~
-  {: class="tex"}  
 
-- Centré
+- centré
 
   ~~~~~~
   \begin{center}
     Texte au centre
   \end{center}
   ~~~~~~
-  {: class="tex"}  
 
 - `\usepackage{ragged2e}` : (voir les options) pour tout le document
 
@@ -124,14 +121,14 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
 - `\textsf{sans serif}`, `\texttt{machine à ecrire}`, `\textsc{PETITE CAPITALES}`, `\textrm{par défaut}`
 - `\textnormal{tout normale}`
 - `\underline{souligné}`
-- `\textcolor{red}{en rouge}` (il faut la bibliothèque xcolor)
-- `\colorbox{red}{sur fond rouge}` (il faut la bibliothèque xcolor)
+- `\textcolor{red}{en rouge}` (il faut la bibliothèque _xcolor_)
+- `\colorbox{red}{sur fond rouge}` (il faut la bibliothèque _xcolor_)
 
 ## Tailles
 
 - Tailles (standards) :
 
-  `\tiny` minuscule, `\scriptsize` très petit, `\footnotesize` assez petit, `\small` petit, `\normalsize` normal, `\large` grand, `\Large` plus grand, `\LARGE` très grand, `\huge` énorme, `\Huge` géant  
+  `\tiny` minuscule, `\scriptsize` très petit, `\footnotesize` assez petit, `\small` petit, `\normalsize` normal, `\large` grand, `\Large` plus grand, `\LARGE` très grand, `\huge` énorme, `\Huge` géant
 
   par exemple `{\Large Titre}`
 

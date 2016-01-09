@@ -27,7 +27,7 @@ codelang: tex
 - LaTeX : `\textbf{en gras}`
 - Markdown : `**en gras**`{: class="markdown"}
 - MediaWiki : `'''en gras'''`{: class="mediawiki"}
-- ...des dizaines autres existent
+- ...des dizaines d'autres existent
 
 # (La)TeX et HTML
 
@@ -74,13 +74,13 @@ codelang: tex
 # (La)TeX : comment ça fonctionne
 
 - Si le document (principal) est un fichier texte appelé _monfichier.tex_, on compile d'une des façons suivantes : 
-_(en fonction du compilateur choisie)_
+_(en fonction du compilateur choisi)_
   - `xelatex monfichier.tex`{: class="code"}
   - `lualatex monfichier.tex`{: class="code"}
   - `pdflatex monfichier.tex`{: class="code"}
 
   et le résultat est un fichier _monfichier.pdf_, si tout se déroule bien!!,
-  sinon, les messages d'erreur en plus d'être affichés à l'écran se trouve dans le fichier _monfichier.log_.
+  sinon, les messages d'erreur en plus d'être affichés à l'écran se trouvent dans le fichier _monfichier.log_.
 
 - Démonstration ...
 
@@ -91,7 +91,7 @@ _(en fonction du compilateur choisie)_
   * Linux : [TeXLive](http://fr.wikipedia.org/wiki/TeX_Live)
   * Mac OS X : [MacTeX](http://fr.wikipedia.org/wiki/MacTeX)
   * Windows : [MiKTeX](https://fr.wikipedia.org/wiki/MiKTeX)
-- Mais de nos jours on peut s'en passer d'une telle installation ...
+- Mais de nos jours on peut se passer d'une telle installation ...
 
 # LaTeX - l'édition en ligne
 
@@ -138,16 +138,16 @@ Et GitHub dans tout ça ?
 - 2010 : LuaLaTeX
 - 2014 : TeX est en version 3.14159265!!_→ π_
 
-# Conseils pratiques : vos adresses mail et mots de passes
+# Conseils pratiques : vos adresses mail et mots de passe
 
 - Il faut avoir au moins deux adresses perso
   + Pour communiquer avec les humains (y compris l'administration)
   + Pour donner à des sites lors des inscriptions
   + Il est préférable d'avoir un troisième : « argent »
 - Il faut avoir au moins deux adresses pro
-  + Un fournit par l'employeur (l'université)
-  + L'un constant au long de votre vie (à mettre sur CV)
-- Comment retenir autant de mot de passes
+  + Une fournie par l'employeur (l'université)
+  + Une constante au long de votre vie (à mettre sur CV)
+- Comment retenir autant de mots de passe
 
 # HTML : édition en ligne
 

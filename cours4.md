@@ -76,9 +76,9 @@ $$
   \end{align}
   ~~~~~~~
 
-- En plus des versions `*` sans numéro, il existent les versions _«ed»_ pour mettre en mode math : `gathered`, `aligned`.
-- On peut mettre un `\label` par ligne numéroté.
-- On ajuster la "numérotation" avec `\tag{...}`, `\tag*{...}` ou `\notag`.
+- En plus des versions `*` sans numéro, il existe les versions _«ed»_ pour mettre en mode math : `gathered`, `aligned`.
+- On peut mettre un `\label` par ligne numérotée.
+- On ajuste la "numérotation" avec `\tag{...}`, `\tag*{...}` ou `\notag`.
 - On peut insérer des lignes de texte avec `\intertext{...}`.
 - Si tout ça ne suffit pas, il y a la librairie `empheq`.
 
@@ -100,7 +100,7 @@ $$
   \end{gather*}
   ~~~~~~~
 
-- La taille des polices (et la position des indices) peut-être contrôler avec `\displaystyle`, `\textstyle`, `\scriptstyle` et `\scriptscriptstyle`.
+- La taille des polices (et la position des indices) peut être contrôlée avec `\displaystyle`, `\textstyle`, `\scriptstyle` et `\scriptscriptstyle`.
 
 # Texte, espaces
 
@@ -114,7 +114,7 @@ $$
   \]
   ~~~~~~~
 
-- Les espaces ne compte pas dans les formules, mais on peut en rajouter avec les commandes habituelles : `\,`, `\quad`, ...
+- Les espaces ne comptent pas dans les formules, mais on peut en rajouter avec les commandes habituelles : `\,`, `\quad`, ...
 
 # Parenthèses
 
@@ -124,7 +124,7 @@ $$
 
   `\left\{ ... \right\}`
 
-  On peut à la place de `(` avoir `\{`, `[`, `|`, `\|`, `<` ou sans rien `.`
+  On peut à la place de `(` avoir `\{`, `[`, `|`, `\|`, `<` ou rien `.`
 
   + on peut mélanger : `\left\{ ... \right|` 
 
@@ -224,7 +224,7 @@ Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à
 
 ## Indices
 
-- Pour mettre plusieurs lignes d'indices existent :
+- Pour mettre plusieurs lignes d'indices il existe :
   `\substack{...\\ ...}` et `subarray`.
 - Pour mettre des indices dans les 4 coins :
   `\sideset{_1^2}{_3^4}\sum`.
@@ -236,5 +236,5 @@ Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à
 ## Fractions
 
 - `\frac12` est la même chose que `\frac{1}{2}`.
-- En plus de `\frac` il existent `\dfrac`, `\tfrac`, `\cfrac`.
+- En plus de `\frac` il existe `\dfrac`, `\tfrac`, `\cfrac`.
 

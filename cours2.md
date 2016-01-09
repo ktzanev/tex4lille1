@@ -45,7 +45,7 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
   \end{document}
   ~~~~~~
 
-Avec ces modèles qui utilisent la classe _standalone_ on créer des images au format _PDF_ qu'on peut importer après dans le document principal.
+Avec ces modèles qui utilisent la classe _standalone_ on crée des images au format _PDF_ qu'on peut importer après dans le document principal.
 
 ## Organisation des fichiers pour le mémoire
 
@@ -83,11 +83,11 @@ Avec ces modèles qui utilisent la classe _standalone_ on créer des images au f
 
 - `%`   : commentaire (pour l'imprimer `\%`)
 - `$`   : mode math (pour l'imprimer `\$`)
-- `&`   : allignement (pour l'imprimer `\&`)
+- `&`   : alignement (pour l'imprimer `\&`)
 - `_`   : indice (pour l'imprimer `\_`)
 - `^`   : puissance (pour l'imprimer `\^`)
-- `~`   : espace insecable (pour l'imprimer `\~`)
-- `{ }` : début et fin de bloque (pour les imprimer `\{` et `\}`)
+- `~`   : espace insécable (pour l'imprimer `\~`)
+- `{ }` : début et fin de bloc (pour les imprimer `\{` et `\}`)
 - `#`   : argument de macro (pour l'imprimer `\#`)
 - `\`   : spécial (pour l'imprimer `\textbackslash, $\backslash$, $\setminus$, \symbol{92}`)
 
@@ -95,19 +95,19 @@ Avec ces modèles qui utilisent la classe _standalone_ on créer des images au f
 
 - accents, pas besoin avec unicode, mais pour info :
   `\'e` <code>\`e</code> `\^e` `\"e` `\~e` `\c{c}`
-- les tirés :
+- les tirets :
   `$-$` (moins), `-` (césure), `--` (diapason), `---` (dialogue)
 - les points de suspension :
   `\dots`, `$\ldots$`, `$\cdots$`
 - ligne horizontale :
   `\rule{\linewidth}{0.5mm}`
 
-# Les éspaces
+# Les espaces
 
 ## Les caractères d'espace
 
-- espace : au début de ligne, consecutif, en fin de ligne, forcé `\` , en mode math `$x y$`
-- espace insecable : `~`
+- espace : en début de ligne, consécutif, en fin de ligne, forcé `\` , en mode math `$x y$`
+- espace insécable : `~`
 - tabulation
 - passage à la ligne : un, deux, après `%`, `\newline`, `\\`, `\\*`
 
@@ -120,7 +120,7 @@ Avec ces modèles qui utilisent la classe _standalone_ on créer des images au f
 - `\,` espace très fin = 3/18 em ~ 0.17 em
 - `\:` (mode math) espace fin = 4/18 em ~ 0.22 em
 - `\;` (mode math) espace moyen = 5/18 em ~ 0.28 em
-- `\!` (mode math) espace très fin negatif = -3/18 em ~ -0.17 em
+- `\!` (mode math) espace très fin négatif = -3/18 em ~ -0.17 em
 - `\hfill` identique à `\hspace{\fill}`
 - `\hrulefill` pour _____ et `\dotfill` pour .....
 - `\indent` et `\noindent`
@@ -176,15 +176,15 @@ Avec ces modèles qui utilisent la classe _standalone_ on créer des images au f
 
 - `\textbf{gras}`, `\textmd{moyen (pas gras)}`
 - `\textit{italique}`, `\textsl{penché}`, `\emph{ça dépend}`, `\textup{droit}`
-- `\textsf{sans serif}`, `\texttt{machine à ecrire}`, `\textsc{PETITE CAPITALES}`, `\textrm{par défaut}`
-- `\textnormal{tout normale}`
+- `\textsf{sans sérif}`, `\texttt{machine à écrire}`, `\textsc{PETITE CAPITALES}`, `\textrm{par défaut}`
+- `\textnormal{tout normal}`
 - `\underline{souligné}`
 - `\textcolor{red}{en rouge}` (il faut la bibliothèque _xcolor_)
 - `\colorbox{red}{sur fond rouge}` (il faut la bibliothèque _xcolor_)
 
 ## Tailles
 
-- tailles (standards) :
+- tailles (standard) :
 
   `\tiny` minuscule, `\scriptsize` très petit, `\footnotesize` assez petit, `\small` petit, `\normalsize` normal, `\large` grand, `\Large` plus grand, `\LARGE` très grand, `\huge` énorme, `\Huge` géant
 

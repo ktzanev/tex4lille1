@@ -28,9 +28,8 @@ codelang: tex
 - Pour rajouter une table des matières : `\tableofcontents`.
     Il faut compiler 2 fois (automatique dans ShareLaTeX).
 - Le niveau maximal inclus dans la table : `\setcounter{tocdepth}{3}`.
-- Pour rajouter à la table des matières, par exemple un chapitre on peut faire `\addcontentsline{toc}{chapter}{Introduction}`
-
-    qui est utile pour rajouter par exemple des chapitres non numérotés (avec `*`).
+- Pour rajouter à la table des matières, par exemple un chapitre on peut faire `\addcontentsline{toc}{chapter}{Introduction}`!!
+  ce qui est utile pour rajouter par exemple des chapitres non numérotés (avec `*`).
 
 # Définitions, Propositions, Théorèmes, ...
 
@@ -91,7 +90,7 @@ et même _proof_ (démonstration) qui est prédéfini :
   + `\section{Premier résultat}\label{sec:premire}`
   + `\begin{theorem}\label{thm:principal}`
   + `\begin{equation}\label{eq:schrod}`
-- Puis on utilise `\ref{...}` pour obtenir la référence  et/ou `\pageref{...}` pour obtenir le page.
+- Puis on utilise `\ref{...}` pour obtenir la référence  et/ou `\pageref{...}` pour obtenir la page.
 
   Exemple :
 
@@ -121,7 +120,7 @@ et même _proof_ (démonstration) qui est prédéfini :
   {: class="tex xsmaller"}
 
 - Après pour citer on utilise par exemple `\cite{lamp}` qui va produire `[Lamp1994]`.
-- Si on désire une numérotation automatique des entrés, on peut omettre les étiquettes `[Lamp1994]`, `[Einst1905]`, ...
+- Si on désire une numérotation automatique des entrées, on peut omettre les étiquettes `[Lamp1994]`, `[Einst1905]`, ...
 - En cas d'une bibliographie abondante, on peut utiliser des systèmes plus performants, tel [biblatex](https://fr.wikipedia.org/wiki/BibTeX).
 
 ## Notes de bas de page
@@ -135,7 +134,7 @@ Grâce à la librairie `hyperref` :
 
 - tous les `\ref` et `\pageref` deviennent des liens;
 - les lignes dans la table des matières sont des liens;
-- il y a une table des matières PDF et les infos auteur et titre sont renseignés dans le PDF (métadonnées).
+- il y a une table des matières PDF et les infos auteur et titre sont renseignées dans le PDF (métadonnées).
 - On peut utiliser des liens web comme :
   `\url{http://fr.wikipedia.org/wiki/Théorème_de_Baire}`{: class="tex smaller"}
   ou
@@ -179,7 +178,7 @@ Grâce à la librairie `hyperref` :
   \end{enumerate}
   ~~~~~~~
 
-- On peut personnaliser les listes, par exemple en utilisant la bibliothèque `\usepackage[shortlabels]{enumitem}`!! où l'option `[shortlabels]` permet de choisir faciement le type de numérotation :
+- On peut personnaliser les listes, par exemple en utilisant la bibliothèque `\usepackage[shortlabels]{enumitem}`!! où l'option `[shortlabels]` permet de choisir facilement le type de numérotation :
 
   ~~~~~~~
   \begin{enumerate}[1.]

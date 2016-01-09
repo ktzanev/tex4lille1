@@ -23,7 +23,7 @@ codelang: tex
 - _EPS_ : c'est le seul format accessible avec LaTeX
 - _SVG_ : c'est le seul format accessible avec HTML
 
-Les logiciels d'éditions d'images vectoriels, exportent en général dans les trois formats.
+Les logiciels d'édition d'images vectorielles, exportent en général dans les trois formats.
 
 # Inclure une image
 
@@ -33,7 +33,7 @@ Grâce à la bibliothèque `graphicx` il suffit de faire :
 
 - pas besoin de mettre l'extension _.pdf_, _.jpg_, _.png_ ou _.gif_
 - le fichier doit être dans le même répertoire que la source tex, ou ...
-- si vos images sont dans un sous répertoire, par exemple _images_, on peut le signaler à LaTeX avec `\graphicspath{images/}`.
+- si vos images sont dans un sous-répertoire, par exemple _images_, on peut le signaler à LaTeX avec `\graphicspath{images/}`.
 - la commande `\includegraphics` peut prendre des paramètres : `width`, `height`, `scale`, `angle`.
 
 Exemple :
@@ -41,7 +41,7 @@ Exemple :
 
 # Les figures
 
-- Si on souhaite, en plus d'inclure l'image, d'y mettre un titre, de pouvoir la référencer, qu'elle soit centrée avec passage à la ligne!! on peut utiliser la environnement `figure`.!! Exemple :
+- Si on souhaite, en plus d'inclure l'image, y mettre un titre, pouvoir la référencer, qu'elle soit centrée avec passage à la ligne!! on peut utiliser l'environnement `figure`.!! Exemple :
 
   ~~~~~~~
   \begin{figure}[h!]
@@ -57,12 +57,12 @@ Exemple :
 - `\centering` c'est pour centrer l'image
 - `\caption` c'est pour mettre une légende (titre)
 - `\lable` doit être mis après _caption_, si on en a besoin
-- Si on souhaite utiliser plusieurs images cote-à-cote dans une figure, on peut utiliser l'environnement `subfigure`
+- Si on souhaite utiliser plusieurs images côte-à-côte dans une figure, on peut utiliser l'environnement `subfigure`
 - Dans _figure_ on n'est pas obligé d'avoir `includegraphics`, on peut mettre n'importe quel code, par exemple des commandes pour dessiner
 
 # Incruster une image
 
-- Si on souhaite que le texte coule autour de l'image, on peut utiliser l'environement `wrapfigure` de la bibliothèque `wrapfig`.!! Exemple :
+- Si on souhaite que le texte coule autour de l'image, on peut utiliser l'environnement `wrapfigure` de la bibliothèque `wrapfig`.!! Exemple :
 
   ~~~~~~~
   \begin{wrapfigure}{r}{0.5\textwidth}
@@ -83,10 +83,10 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
 - L'environnement [picture](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/R%C3%A9alisation_de_graphiques_math%C3%A9matiques) natif dans LaTeX, mais très pauvre.
 - Le langage [metapost](http://tex.loria.fr/prod-graph/f-mpman-2.pdf) qui est compilé avec la commande `metapost`. Très performant en 2D, mais nécessite un outil externe et le résultat est en EPS.
 - Le langage [Asymptote](http://asymptote.sourceforge.net/) qui est inspiré de metapost. Très performant en 3D, mais nécessite un outil externe.
-- Le langage [PSTicks](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/Dessiner_avec_PSTricks) qui peut-être écrit directement dans LaTeX. Le résultat est en EPS. N'est pas fait à la base pour [Xe\|Lua\|PDF]LaTeX.!! 
+- Le langage [PSTicks](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/Dessiner_avec_PSTricks) qui peut être écrit directement dans LaTeX. Le résultat est en EPS. N'est pas fait à la base pour [Xe\|Lua\|PDF]LaTeX.!! 
   À compiler avec _xelatex_ !
-- Le langage [TikZ](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/Dessiner_avec_PSTricks) qui peut-être écrit directement dans LaTeX. Il est inspiré de metapost et PSTrick, mais plus moderne. Fonctionne à merveille avec toutes les versions de [Xe|Lua|PDF][La|Con]TeX aussi bien en PS qu'en PDF.!!
-  C'est le langage que je vous conseil !
+- Le langage [TikZ](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/Dessiner_avec_PSTricks) qui peut être écrit directement dans LaTeX. Il est inspiré de metapost et PSTrick, mais plus moderne. Fonctionne à merveille avec toutes les versions de [Xe|Lua|PDF][La|Con]TeX aussi bien en PS qu'en PDF.!!
+  C'est le langage que je vous conseille !
 
 ## TikZ (quelques notions)
 
@@ -106,13 +106,13 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
   ~~~~~~~
 
 - Attention, toute commande se termine par `;` (point-virgule)
-- Les coordonnées son par défaut en _cm_ et les angles en _deg_
+- Les coordonnées sont par défaut en _cm_ et les angles en _deg_
 
 ## TikZ (les commandes de base)
 
 - `\path ... ;` est la commande de base qui «construit» un chemin
-- `\draw ... ;` est la commande pour dessiner. C'est un raccourcie de `\path[draw] ... ;`
-- `\fill ... ;` est la commande pour remplir. C'est un raccourcie de `\path[fill] ... ;`
+- `\draw ... ;` est la commande pour dessiner. C'est un raccourci de `\path[draw] ... ;`
+- `\fill ... ;` est la commande pour remplir. C'est un raccourci de `\path[fill] ... ;`
 - On peut combiner les deux de plusieurs façons, mais probablement le plus simple est de faire`\path[fill,draw] ... ;`
 
 ## TikZ (les coordonnées)
@@ -131,7 +131,7 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
 - `(A) arc (0:90:1cm)` : arc de cercle de rayon 1cm qui débute en (A), entre les angles 0° et 90°
 - `(A) .. controls (1,1) and (2,1) .. (B)` : courbe de Bézier entre (A) et (B), avec points de contrôle (1,1) et (2,1)
 - `(A) rectangle (B)` : rectangle avec côtés // aux axes et coins opposés (A) et (B)
-- `(A) grid (B)` : une gille à la place du rectangle
+- `(A) grid (B)` : une grille à la place du rectangle
 - `plot ({\x},{sin(\x r)})` : dessine la fonction sinus (en radians)
 - `(A) node {Text}` : place le texte centré en (A)
 
@@ -141,7 +141,7 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
 - `[yshift=-1em]` : décalage vers le bas de 1em
 - `[rotate=70]` : rotation d'angle 70°
 - `[scale=1.5]` : homothétie de rapport 1.5
-- ces transformations n'affecte que les coordonnées explicites, mais pas les points nommés (comme `(A)`), ni les épaisseurs des lignes
+- ces transformations n'affectent que les coordonnées explicites, mais pas les points nommés (comme `(A)`), ni les épaisseurs des lignes
 - quand il y a plusieurs transformations ou options (comme `[xshift=25mm, rotate=30]`) elles sont exécutées de gauche à droite
 - si on souhaite qu'une transformation ou une option s'applique à plusieurs chemins on peut utiliser l'environnement `scope` :
 
@@ -159,7 +159,7 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
 - `[draw=orange]` pour dessiner en orange et `[fill=yellow]` pour remplir en jaune
 - `[fill opacity=.7]` le remplissage est opaque à 70% (par défaut c'est 1 = 100%)
 - `[very thin]` pour des lignes très fines,!! ou `[ultra thick]` pour des lignes ultra épaisses
-- `[->]` pour que la ligne se termine avec une flèche. Il existe plusieurs type de flèches, par exemple `[-latex]`,`[-stealth]`, `[-|]`, ...
+- `[->]` pour que la ligne se termine avec une flèche. Il existe plusieurs types de flèches, par exemple `[-latex]`,`[-stealth]`, `[-|]`, ...
 - `[rounded corners=3mm]` pour arrondir les coins
 - Pour `plot` il y a plusieurs options comme :
 - `[domain=0:4]` pour dire que `\x` varie entre 0 et 4

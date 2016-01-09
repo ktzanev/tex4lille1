@@ -6,7 +6,9 @@ shorturl: git.io/vuZkr
 codelang: tex
 ---
 
-# Le préambule standard
+# Modèles
+
+## Le préambule standard
 
 Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1/Exemples/ModelXeLaTeX.tex).
 
@@ -18,6 +20,62 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
 - `\usepackage{xcolor}` pour pouvoir utiliser des couleurs
 - `\usepackage{graphicx}` pour pouvoir inclure des graphiques
 - `\usepackage[pdfencoding=auto]{hyperref}` pour les liens
+
+## Modèle pour les images
+
+- Pour tikz
+
+  ~~~~~~
+  \documentclass[tikz,border=7pt]{standalone}
+  \begin{document}
+    \begin{tikz}
+      \fill[red] (0,0) circle (1);
+    \end{tikz}
+  \end{document}
+  ~~~~~~
+
+- Pour PSTricks 
+
+  ~~~~~~
+  \documentclass[pstricks,border=7pt]{standalone}
+  \begin{document}
+  \begin{pspicture}(-1,-1)(1,1)
+      \pscircle(0,0){1}
+  \end{pspicture}
+  \end{document}
+  ~~~~~~
+
+Avec ces modèles qui utilisent la classe _standalone_ on créer des images au format _PDF_ qu'on peut importer après dans le document principal.
+
+## Organisation des fichiers pour le mémoire
+
+~~~~~~
+├─ memoire.tex
+└── images
+    ├─ image1.tex
+    ├─ image1.pdf
+    ⋮
+    ├─ imageN.tex
+    ├─ imageN.pdf
+    ├─ photo1.jpg
+    ├─ photo2.jpg
+    ⋮
+~~~~~~
+
+## Organisation des fichiers pour ZupDeCo
+
+~~~~~~
+├─ memoire.tex
+├─ fiche1.tex
+├─ fiche2.tex
+└── images
+    ├─ image1.tex
+    ├─ image1.pdf
+    ⋮
+    ├─ photo1.jpg
+    ├─ photo2.jpg
+    ⋮
+~~~~~~
 
 # Les caractères spéciaux
 
@@ -35,7 +93,7 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
 
 ## Symboles particuliers
 
-- Accents, pas besoin avec unicode, mais pour info :
+- accents, pas besoin avec unicode, mais pour info :
   `\'e` <code>\`e</code> `\^e` `\"e` `\~e` `\c{c}`
 - les tirés :
   `$-$` (moins), `-` (césure), `--` (diapason), `---` (dialogue)
@@ -126,11 +184,11 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
 
 ## Tailles
 
-- Tailles (standards) :
+- tailles (standards) :
 
   `\tiny` minuscule, `\scriptsize` très petit, `\footnotesize` assez petit, `\small` petit, `\normalsize` normal, `\large` grand, `\Large` plus grand, `\LARGE` très grand, `\huge` énorme, `\Huge` géant
 
   par exemple `{\Large Titre}`
 
-- Taille arbitraire : `{\fontsize{3cm}{4cm}\selectfont C'est très grand!}`
-- Choix de la police ...
+- taille arbitraire : `{\fontsize{3cm}{4cm}\selectfont C'est très grand!}`
+- choix de la police ...

@@ -1,0 +1,6 @@
+@-moz-document url-prefix() {
+    body {
+        text-shadow: 0 0 .35px black !important;
+        -moz-osx-font-smoothing : grayscale;
+    }
+}

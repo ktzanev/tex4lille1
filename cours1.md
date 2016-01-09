@@ -32,6 +32,7 @@ codelang: tex
 # (La)TeX et HTML
 
 ## Similitudes
+
 - détermine la mise en page globale et locale du document
 - essaye de séparer le contenu des instructions d'affichage (.css/.sty)
 - les deux excellent dans leur domaine de prédilection
@@ -41,6 +42,7 @@ codelang: tex
 - très bien documentés
 
 ## Différences
+
 - compiler vs interpréter
 - popularité
 - difficulté de la programmation associée (javascript vs tex)
@@ -139,12 +141,12 @@ Et GitHub dans tout ça ?
 # Conseils pratiques : vos adresses mail et mots de passes
 
 - Il faut avoir au moins deux adresses perso
-  +   Pour communiquer avec les humains (y compris l'administration)
-  +   Pour donner à des sites lors des inscriptions
-  +   Il est préférable d'avoir un troisième : « argent »
+  + Pour communiquer avec les humains (y compris l'administration)
+  + Pour donner à des sites lors des inscriptions
+  + Il est préférable d'avoir un troisième : « argent »
 - Il faut avoir au moins deux adresses pro
-  +   Un fournit par l'employeur (l'université)
-  +   L'un constant au long de votre vie (à mettre sur CV)
+  + Un fournit par l'employeur (l'université)
+  + L'un constant au long de votre vie (à mettre sur CV)
 - Comment retenir autant de mot de passes
 
 # HTML : édition en ligne

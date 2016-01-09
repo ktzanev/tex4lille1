@@ -17,11 +17,11 @@ codelang: tex
 - `\subsubsection{Nom de la sous-sous-section} % niveau 3`
 - `\paragraph{Nom du paragraphe} % niveau 4`
 - `\subparagraph{Nom du sous-paragraphe} % niveau 5`
-- Pour déterminer le niveaux de numérotation
+- pour déterminer le niveaux de numérotation
     `\setcounter{secnumdepth}{3}`
-- Ils existent tous en version avec `*` pour ne pas être numérotés,
+- ils existent tous en version avec `*` pour ne pas être numérotés,
     ex : `\chapter*{Introduction}`
-- Pour modifier l'apparence des titres il y a la bibliothèque [titlesec](https://www.sharelatex.com/learn/Sections_and_chapters#Customize_chapters_and_sections) : `\usepackage{titlesec}`.
+- pour modifier l'apparence des titres il y a la bibliothèque [titlesec](https://www.sharelatex.com/learn/Sections_and_chapters#Customize_chapters_and_sections) : `\usepackage{titlesec}`
 
 # Table des matières
 
@@ -72,7 +72,7 @@ codelang: tex
 \end{theorem}
 ~~~~~~~
 
-et de même pour _lemma_, _proposition_, .... 
+et de même pour _lemma_, _proposition_, ...
 
 et même _proof_ (démonstration) qui est prédéfini :
 
@@ -86,7 +86,7 @@ et même _proof_ (démonstration) qui est prédéfini :
 
 ## Références
 
-- Pour marquer une section, un théorème, une équation : `\label{...}`
+- Pour marquer une section, un théorème, une équation : `\label{...}`.
 - Par exemple :
   + `\section{Premier résultat}\label{sec:premire}`
   + `\begin{theorem}\label{thm:principal}`
@@ -133,9 +133,9 @@ et même _proof_ (démonstration) qui est prédéfini :
 
 Grâce à la librairie `hyperref` :
 
-- Tous les `\ref` et `\pageref` deviennent des liens.
-- Les lignes dans la table des matières sont des liens.
-- Il y a une table des matières PDF et les infos auteur et titre sont renseignés dans le PDF (métadonnées).
+- tous les `\ref` et `\pageref` deviennent des liens;
+- les lignes dans la table des matières sont des liens;
+- il y a une table des matières PDF et les infos auteur et titre sont renseignés dans le PDF (métadonnées).
 - On peut utiliser des liens web comme :
   `\url{http://fr.wikipedia.org/wiki/Théorème_de_Baire}`{: class="tex smaller"}
   ou

@@ -1,0 +1,33 @@
+@font-face
+  font-family: 'fontello'
+  src: url('../assets/fonts/fontello.woff') format('woff')
+  src: url('../assets/fonts/fontello.ttf') format('truetype')
+
+a.edit::before,
+a.download::before,
+a.github::before
+  content: ""
+  font-family: "fontello"
+  font-style: normal
+  font-weight: normal
+  speak: none
+  display: inline-block
+  text-decoration: inherit
+  width: 1em
+  margin-right: .2em
+  margin-left: .2em
+  text-align: center
+  font-variant: normal
+  text-transform: none
+  line-height: 1em
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+a.download::before
+  content: 'D'
+
+a.edit::before
+  content: 'E'
+
+a.github::before
+  content: 'G'

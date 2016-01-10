@@ -1,0 +1,43 @@
+\documentclass[11pt,twoside,openright]{report} % type de document avec taille de police par défaut
+% =============================================================
+\usepackage[a4paper]{geometry} % la "géométrie" de la page
+\usepackage{mathtools,amssymb,bm,amsthm} % pour des possibilités en math étendues (mathtools => amsmath)
+% --------------- PDFLaTeX, XeLaTeX ou LuaLaTeX ?
+\usepackage{iftex}
+\ifPDFTeX
+  % --------------- PDFLaTeX ou LaTeX
+  \usepackage[utf8]{inputenc} % pour avoir ce fichier en utf8
+  \usepackage[T1]{fontenc} % pour avoir les lettres accentuées dans le résultat PDF
+  \usepackage{lmodern} % pour utiliser cette police vectorielle (elle utilise l'encodage T1 avec 256 lettres)
+\else
+  % --------------- XeLaTeX ou LuaLaTeX
+  \usepackage{fontspec} % pour le bon encodage des PDFs => police lmodern
+\fi
+% ---------------
+\usepackage[francais]{babel} % pour franciser LaTeX
+\usepackage{xcolor} % pour pouvoir utiliser des couleurs
+\usepackage{graphicx} % pour \includegraphics
+\usepackage[pdfencoding=auto]{hyperref} % pour les liens. En règle générale il doit être le dernier package chargé.
+% =============================================================
+
+% ---------------
+\title{Mon titre}
+\author{Mon Nom \and Ton Nom}
+\date{\today}
+% ---------------
+
+\begin{document}
+%==============================================================
+\maketitle
+
+\begin{abstract}
+  Mon résumé à mettre ici \dots
+\end{abstract}
+
+% --------------------
+\chapter*{Introduction}
+
+Bla bla \dots
+
+%==============================================================
+\end{document}

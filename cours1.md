@@ -49,7 +49,7 @@ codelang: tex
 
 # Hello World !
 
-- [HTML](http://dabblet.com/gist/6ac41cfbe336cb511be2)
+- HTML [ ](gist://5c2ec2f3ec41b3a1b53f)
 
   ~~~~~~
   <html>
@@ -61,7 +61,7 @@ codelang: tex
   ~~~~~~
   {: class="html"}
 
-- [LaTeX](https://fr.sharelatex.com/project/54bb8a74ef302e673191ee38)
+- LaTeX [ ](gist://11bc70d9566efc501ff3/hello_world.tex)
  
   ~~~~~~
   \documentclass{article}

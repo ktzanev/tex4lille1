@@ -1,55 +1,14 @@
     <script src="{{ 'jquery-2.1.4.min.js' | prepend: site.jqueryurl }}"></script>
     <script src="{{ 'lib/js/head.min.js' | prepend: site.revealjsurl }}"></script>
     <script src="{{ 'js/reveal.min.js' | prepend: site.revealjsurl }}"></script>
+    <script src="{{ 'scripts/prereveal.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'scripts/prelinks.js' | prepend: site.baseurl }}"></script>
     <script>
+      "use strict";
+
       (function(){
-        var el, elhtml;
-
-        // wrap all <h1> and <h2> in <section>
-        el = $('div.slides');
-        elhtml = el
-          .html()
-          .replace(/(<h1[^>]*>)/g,'@slide@$1')
-          .split('@slide@')
-          .map(function(hs){
-            var ahs = hs
-              .replace(/(<h2[^>]*>)/g,'@slide@$1')
-              .split('@slide@');
-            return (ahs.length > 1 ? '<section>\n' : '')
-              + ahs.join('</section>\n<section>\n')
-              + (ahs.length > 1 ? '</section>\n' : '');
-          })
-          .join('</section>\n<section>\n')
-          + '</section>\n';
-
-        el.html(elhtml);
-
-        // make all <li> as fragments
-        $('li').addClass('fragment');
-        // make all non fist <p> as fragments
-        $('p:not(:first-child):not(.nofragment)').addClass('fragment');
-        // split <p> and <li> to fragments
-        $('p:contains(!!), li:contains(!!):not(:has(p))')
-          .each(function(){
-            elhtml = $(this).html().split('!!');
-            elhtml = elhtml.splice(0,1)[0]
-                      +'<span class="fragment">'
-                      + elhtml.join('</span><span class="fragment">')
-                      + '</span>';
-            $(this).html(elhtml);
-          });
-        // set the default class for highlight.js
-        $(':not(pre)>code, pre:has(code)').each(function(){
-          var el = $(this);
-          if (!el.attr('class')) {
-            el.addClass('{{page.codelang}}');
-          }
-        });
-        // pre are also fragments
-        $('pre').addClass('fragment');
-
-        //make all <a> external
-        $('a').attr('target','external');
+        // add <section>, [.fragment] and set default code type
+        preReveal('{{page.codelang}}');
 
         // start reveal.js
         Reveal.initialize({
@@ -74,7 +33,7 @@
             // { src: '{{ 'plugin/math/math.js' | prepend: site.revealjsurl }}', async: true },
             { src: '{{ 'plugin/zoom-js/zoom.js' | prepend: site.revealjsurl }}', async: true }
           ]
-        });
+        }); //end Reveal.initialize()
       })();
     </script>
 

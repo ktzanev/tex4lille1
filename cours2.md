@@ -10,7 +10,7 @@ codelang: tex
 
 ## Le préambule standard
 
-Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1/Exemples/ModelXeLaTeX.tex).
+Exemple dans le document _ModelXeLaTeX.tex_ [ ](exemple://ModeleXeLaTeX.tex).
 
 - `\documentclass[11pt]{report}` type de document avec taille de police par défaut
 - `\usepackage[a4paper]{geometry}` pour la taille de la page, les marges, ...
@@ -23,7 +23,7 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
 
 ## Modèle pour les images
 
-- Pour tikz
+- Pour tikz [ ](gist://be42e58a52337653749e/ModelTikZ.tex)
 
   ~~~~~~
   \documentclass[tikz,border=7pt]{standalone}
@@ -33,15 +33,16 @@ Exemple dans le document [ModelXeLaTeX.tex](https://ktzanev.github.io/tex4lille1
     \end{tikz}
   \end{document}
   ~~~~~~
+  
 
-- Pour PSTricks 
+- Pour PSTricks [ ](gist://a7600e1f567a6b13ff36/ModelPSTricks.tex)
 
   ~~~~~~
   \documentclass[pstricks,border=7pt]{standalone}
   \begin{document}
-  \begin{pspicture}(-1,-1)(1,1)
+    \begin{pspicture}(-1,-1)(1,1)
       \pscircle(0,0){1}
-  \end{pspicture}
+    \end{pspicture}
   \end{document}
   ~~~~~~
 
@@ -109,9 +110,10 @@ Avec ces modèles qui utilisent la classe _standalone_ on crée des images au fo
 - espace : en début de ligne, consécutif, en fin de ligne, forcé `\` , en mode math `$x y$`
 - espace insécable : `~`
 - tabulation
-- passage à la ligne : un, deux, après `%`, `\newline`, `\\`, `\\*`
+- passage à la ligne : un, deux, après `%`, `\newline`, `\\`, `\\*`, `\linebreak[4]`
+- changement de paragraphe : ligne vide ou `\par` (à ne pas confondre avec `\paragraphe`)
 
-## Les espaces horizontaux
+## Les espaces horizontaux [ ](gist://ef4f00c09c5765b152e0/espaces_horizontaux.tex)
 
 - `\hspace{...}, \hspace*{...}` par exemple `\hspace*{1cm}`
 - `\enskip` = `\hspace{.5em}`

@@ -8,6 +8,9 @@ layout: default
   + un modèle « universel » _LaTeX_: [ ](exemple://ModeleAllLaTeX.tex)
   + un modèle _TikZ_: [ ](exemple://ModeleTikZ.tex)
   + un modèle _PSTricks_: [ ](exemple://ModelePSTricks.tex)
+{: class='modeles'}
+
+
 - [Cours 1](cours1.html) [18 et 19 janvier 2016] :
   +   Généralités sur (Xe)LaTeX et HTML
   +   Liens utiles

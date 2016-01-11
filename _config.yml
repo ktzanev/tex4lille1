@@ -1,8 +1,8 @@
 # Site settings
 title: TeX4 - LaTeX et HTML
 description: Cours sur (Xe)LaTeX et HTML(5) de Licence 2ème année de l'Université de Lille
-url: "https://ktzanev.github.io/tex4lille1/" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ktzanev.github.io" # the base hostname & protocol for your site
+baseurl: "/tex4lille1/" # the subpath of your site, e.g. /blog/
 
 # libraries
 revealjsurl: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/" # the path to RevealJS

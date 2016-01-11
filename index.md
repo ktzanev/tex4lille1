@@ -2,13 +2,15 @@
 layout: default
 ---
 
-- Pour ne pas commencer à vide avec _LaTeX_ un [modèle XeLaTeX](Exemples/ModelXeLaTeX.tex) et [modèle PDFLaTeX](Exemples/ModelPDFLaTeX.tex).
+- Pour ne pas commencer à vide avec _LaTeX_: 
+  + un modèle _XeLaTeX_: [ ](exemple://ModeleXeLaTeX.tex) 
+  + un modèle _PDFLaTeX_: [ ](exemple://ModelePDFLaTeX.tex)
+  + un modèle « universel » _LaTeX_: [ ](exemple://ModeleAllLaTeX.tex)
+  + un modèle _TikZ_: [ ](exemple://ModeleTikZ.tex)
+  + un modèle _PSTricks_: [ ](exemple://ModelePSTricks.tex)
 - [Cours 1](cours1.html) [du 18 et 19 janvier 2016] :
   +   Généralités sur (Xe)LaTeX et HTML
   +   Liens utiles
-
-<!--
-
 - [Cours 2](cours2.html) [du 25 et 26 janvier 2016]
   +   Le préambule standard
   +   Les caractères spéciaux
@@ -38,6 +40,8 @@ layout: default
   +   Les figures
   +   Incruster une image
   +   Dessiner avec LaTeX : TikZ
+
+<!--
 - Cours 6 [du 29 février et 1 mars 2016] est un cours particulier de questions-réponses sur les mémoires en LaTeX.
 - [Cours 7](cours7.html) [du 7 et 8 mars 2016]
   +   Le HTML5: histoire, la structure DOM, ...

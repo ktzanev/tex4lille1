@@ -64,3 +64,4 @@ TeXAux/
 #perso
 *.zip
 *.sublime*
+.eslintrc

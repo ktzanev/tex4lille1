@@ -1,0 +1,20 @@
+% Ce modèle est a utiliser pour produire une image PDF
+% à partir du code PSTricks.
+%
+% 1) Il doit être compilé avec xelatex.
+%
+% 2) Pour utiliser dans le fichier principal l'image pdf
+%     qui en résulte il faut faire :
+%       \includegraphics[width=5cm]{nomdufichier}
+%
+% 3) Si le fichier se trouve dans le sous-répertoire 'images'
+%     il ne faut pas oublier de mettre dans le préambule du
+%     fichier principal :
+%       \graphicspath{{images/}}
+%
+\documentclass[pstricks,border=7pt]{standalone}
+\begin{document}
+  \begin{pspicture}(-1,-1)(1,1)
+    \pscircle(0,0){1}
+  \end{pspicture}
+\end{document}

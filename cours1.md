@@ -97,7 +97,7 @@ _(en fonction du compilateur choisi)_
 
 Essentiellement trois choix possibles :
 
-- [ShareLaTeX.com](http://www.sharelatex.com)
+- [ShareLaTeX.com](https://fr.sharelatex.com?r=3eb5cc58&rm=d&rs=b)
   ∞ projets privés, compilation correcte, très bonne documentation (en anglais), 1 seul collaborateur autorisé pour les projets privés, mais on peut éditer directement les projets publiques.
   {: class="smaller"}
 

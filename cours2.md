@@ -48,7 +48,7 @@ Exemple dans le document _ModelXeLaTeX.tex_ [ ](exemple://ModeleXeLaTeX.tex).
 
 Avec ces modèles qui utilisent la classe _standalone_ on crée des images au format _PDF_ qu'on peut importer après dans le document principal.
 
-## Organisation des fichiers pour le mémoire
+## Organisation des fichiers pour le mémoire « explorations »
 
 ~~~~~~
 ├─ memoire.tex
@@ -63,7 +63,9 @@ Avec ces modèles qui utilisent la classe _standalone_ on crée des images au fo
     ⋮
 ~~~~~~
 
-## Organisation des fichiers pour ZupDeCo
+Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/project/56938555de5631c80daec02d?r=3eb5cc58&rm=d&rs=b).
+
+## Organisation des fichiers pour le mémoire ZUPdeCO
 
 ~~~~~~
 ├─ memoire.tex
@@ -77,6 +79,8 @@ Avec ces modèles qui utilisent la classe _standalone_ on crée des images au fo
     ├─ photo2.jpg
     ⋮
 ~~~~~~
+
+Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/project/56939047de5631c80daec1e5?r=3eb5cc58&rm=d&rs=b).
 
 # Les caractères spéciaux
 

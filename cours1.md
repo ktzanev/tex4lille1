@@ -153,11 +153,13 @@ Et GitHub dans tout ça ?
 
 Plusieurs site existent :
 
-- [Plnkr.co](http://plnkr.co/) (avec projets, compte GitHub)
 - [codepen.io](http://codepen.io)
 - [jsfiddle.net](http://jsfiddle.net/)
 - [dabblet.com](http://dabblet.com/)
+- [Plnkr.co](http://plnkr.co/) (avec projets, compte GitHub)
+
+  À ma connaissance seul _Plnkr.co_ inclut dans sa version gratuite la possibilités d'avoir un compte avec plusieurs projets.
+
 - [cssdeck.com](http://cssdeck.com/)
 - [Mozilla Thimble](https://thimble.webmaker.org/fr/)
 
-Un seul est gratuit avec possibilités d'avoir plusieurs projets à ma connaissance.

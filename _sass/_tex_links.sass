@@ -1,7 +1,7 @@
 @font-face
   font-family: 'fontello'
-  src: url('../assets/fonts/fontello.woff') format('woff'), url('../assets/fonts/fontello.ttf') format('truetype')
-
+  src: url('../assets/fonts/fontello.eot')
+  src: url('../assets/fonts/fontello.eot') format('embedded-opentype'), url('../assets/fonts/fontello.woff') format('woff'), url('../assets/fonts/fontello.ttf') format('truetype'), url('../assets/fonts/fontello.svg') format('svg')
 a.edit::before,
 a.download::before,
 a.github::before
@@ -28,6 +28,10 @@ a.download::before
 a.edit::before
   content: 'E'
 
+a.edit.overleaf::before
+  content: 'O'
+
 a.github::before
   content: 'G'
   margin-right: .1em
+

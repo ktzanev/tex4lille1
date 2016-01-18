@@ -16,12 +16,12 @@
     var a = $(this), ah = a.attr('href'), raw;
     if (/tex$/.test(ah)) {
       raw = gist + ah.split('/').slice(2).join('/raw/');
-      a.attr('href', overleaf + raw).html('').attr('target', 'external').addClass('overleaf edit');
+      a.attr('href', overleaf + raw).html('').attr('target', 'external').addClass('overleaf edit').attr('title', 'Ouvrir dans Overleaf');
       // or download it
-      $('<a>').attr('href', raw).attr('download', '').addClass('download').insertAfter(a);
+      $('<a>').attr('href', raw).attr('download', '').addClass('download').insertAfter(a).attr('title', 'Télécharger');
     } else {
       raw =  ah.split('/').slice(2).join('/');
-      a.attr('href', dabblet + raw).html('').attr('target', 'external').addClass('dabblet edit');
+      a.attr('href', dabblet + raw).html('').attr('target', 'external').addClass('dabblet edit').attr('title', 'Éditer dans Dabblet');
     }
   });
 
@@ -32,14 +32,14 @@
     // or see it on github
     a.html('');
     raw  = gitexemples + ah;
-    a.attr('href', raw).attr('target', 'external').addClass('github');
+    a.attr('href', raw).attr('target', 'external').addClass('github').attr('title', 'Voir dans GitHub');
     // or download it
     a = $('<a>').insertAfter(a);
     raw  = exemples + ah;
-    a.attr('href', raw).attr('download', '').addClass('download');
+    a.attr('href', raw).attr('download', '').addClass('download').attr('title', 'Télécharger');
     // edit tex in overleaf
     a = $('<a>').insertAfter(a);
-    a.attr('href', overleaf + raw).attr('target', 'external').addClass('overleaf edit');
+    a.attr('href', overleaf + raw).attr('target', 'external').addClass('overleaf edit').attr('title', 'Ouvrir dans Overleaf');
   });
 })();
 

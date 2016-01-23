@@ -35,7 +35,7 @@ Exemple dans le document _ModelXeLaTeX.tex_ [ ](exemple://ModeleXeLaTeX.tex).
   ~~~~~~
   
 
-- Pour PSTricks [ ](gist://a7600e1f567a6b13ff36/ModelPSTricks.tex)
+- Pour PSTricks [ ](gist://a7600e1f567a6b13ff36/ModelPSTricks.tex) (à compiler avec XeLaTeX)
 
   ~~~~~~
   \documentclass[pstricks,border=7pt]{standalone}
@@ -46,7 +46,11 @@ Exemple dans le document _ModelXeLaTeX.tex_ [ ](exemple://ModeleXeLaTeX.tex).
   \end{document}
   ~~~~~~
 
-Avec ces modèles qui utilisent la classe _standalone_ on crée des images au format _PDF_ qu'on peut importer après dans le document principal.
+Avec ces modèles qui utilisent la classe _standalone_ on crée des images au format _PDF_ qu'on peut importer après dans le document principal :
+
+~~~~~~
+\includegraphics[width=7cm]{nom_fichier_image}
+~~~~~~
 
 ## Organisation des fichiers pour le mémoire « explorations »
 

@@ -82,6 +82,32 @@ Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/proj
 
 Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/project/56939047de5631c80daec1e5?r=3eb5cc58&rm=d&rs=b).
 
+## «Recommandations» générales (pour ShareLaTeX)
+
+- N'utilisez pas d'accents ni des symboles bizarres dans les noms des fichiers.!! 
+  Les lettres, chiffres et `_` (souligné) suffisent.
+- Commentez votre code si nécessaire.
+- Utilisez des commentaires «lignes» pour rendre des parties du code visibles. 
+
+  ~~~~~~
+  % ----------------------------
+  \section{Nom de la section}
+  % ----------------------------
+  ~~~~~~
+
+- Indentez (mettre en retrait) les blocs.
+
+  ~~~~~~
+  ...
+  \begin{theorem}
+    Soit $A$ ...
+    \begin{enumerate}
+      \item Si le paramètre ...
+      \item Sinon ....
+    \end{enumerate}
+  \end{theorem}
+  ~~~~~~
+
 # Les caractères spéciaux
 
 ## Réservés par (La)TeX
@@ -90,16 +116,19 @@ Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/proj
 - `$`   : mode math (pour l'imprimer `\$`)
 - `&`   : alignement (pour l'imprimer `\&`)
 - `_`   : indice (pour l'imprimer `\_`)
-- `^`   : puissance (pour l'imprimer `\^`)
+- `^`   : exposant (pour l'imprimer `\^`)
 - `~`   : espace insécable (pour l'imprimer `\~`)
-- `{ }` : début et fin de bloc (pour les imprimer `\{` et `\}`)
+- `{ }` : début et fin de groupe (pour les imprimer `\{` et `\}`)
 - `#`   : argument de macro (pour l'imprimer `\#`)
 - `\`   : spécial (pour l'imprimer `\textbackslash, $\backslash$, $\setminus$, \symbol{92}`)
 
 ## Symboles particuliers
 
 - accents, pas besoin avec unicode, mais pour info :
-  `\'e` <code>\`e</code> `\^e` `\"e` `\~e` `\c{c}`
+  `\'e` (é), <code>\`e</code> (è), `\^e` (ê), `\"\i` (ï), `\c{c}` (ç)
+- les lettres grecques :
+  `\alpha` (α), `\beta` (β), `\gamma` (γ), ..., `\omega` (ω) !!
+  `\Alpha` (Α), `\Beta` (Β), `\Gamma` (Γ), ..., `\Omega` (Ω)
 - les tirets :
   `$-$` (moins), `-` (césure), `--` (diapason), `---` (dialogue)
 - les points de suspension :
@@ -130,6 +159,7 @@ Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/proj
 - `\hfill` identique à `\hspace{\fill}`
 - `\hrulefill` pour _____ et `\dotfill` pour .....
 - `\indent` et `\noindent`
+- **Surtout ne pas faire : `\ \ \ \ ` !**
 
 ## Les espaces verticaux
 
@@ -182,7 +212,7 @@ Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/proj
 
 - `\textbf{gras}`, `\textmd{moyen (pas gras)}`
 - `\textit{italique}`, `\textsl{penché}`, `\emph{ça dépend}`, `\textup{droit}`
-- `\textsf{sans sérif}`, `\texttt{machine à écrire}`, `\textsc{PETITE CAPITALES}`, `\textrm{par défaut}`
+- `\textsf{sans serif}`, `\texttt{machine à écrire}`, `\textsc{PETITE CAPITALES}`, `\textrm{par défaut (avec serif)}`
 - `\textnormal{tout normal}`
 - `\underline{souligné}`
 - `\textcolor{red}{en rouge}` (il faut la bibliothèque _xcolor_)

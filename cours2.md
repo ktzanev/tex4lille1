@@ -28,9 +28,9 @@ Exemple dans le document _ModelXeLaTeX.tex_ [ ](exemple://ModeleXeLaTeX.tex).
   ~~~~~~
   \documentclass[tikz,border=7pt]{standalone}
   \begin{document}
-    \begin{tikz}
+    \begin{tikzpicture}
       \fill[red] (0,0) circle (1);
-    \end{tikz}
+    \end{tikzpicture}
   \end{document}
   ~~~~~~
   

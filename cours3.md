@@ -113,7 +113,7 @@ et même _proof_ (démonstration) qui est prédéfini :
 
     \bibitem[Einst1905]{einstein}
       A.~Einstein, \emph{Zur Elektrodynamik bewegter Körper}.
-      Annalen der Physik, 322(10):891–921, 1905.
+      Annalen der Physik, 322(10):891--921, 1905.
 
   \end{thebibliography}
   ~~~~~~~
@@ -209,6 +209,13 @@ Grâce à la librairie `hyperref` :
   ~~~~~~~
 
   Par exemple on peut dire `\cfoot{Page \thepage}`!!, et mettre `\pagestyle{fancy}` à la place de `\pagestyle{plain}`.
+
+- Pour changer la première page des chapitres des classes `book` et `report` :
+
+  ~~~~~~~
+  \usepackage{etoolbox}
+  \patchcmd{\chapter}{plain}{fancy}{}{}
+  ~~~~~~~
 
 - Pour gérer les lignes séparatrices :
 

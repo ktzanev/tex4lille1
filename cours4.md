@@ -28,12 +28,12 @@ $$
   \sum_{i=1}^n \sin(n \alpha)
     \text{\quad pour \quad}
       \alpha \in \mathbb{R}
-\]` 
+\]
 ~~~~~~~
 ~~~~~~~
 \begin{displaymath}
     ...
-\end{displaymath}` 
+\end{displaymath}
 ~~~~~~~
 
 ## Avec des numéros d'équations
@@ -43,13 +43,13 @@ $$
   \sum_{i=1}^n \sin(n \alpha)
     \text{\quad pour \quad}
       \alpha \in \mathbb{R}
-\end{equation} 
+\end{equation}
 ~~~~~~~
 ~~~~~~~
 \begin{multline}\label{eq:treslongue}
   p(x) = 3x^6 + 14x^5y + 590x^4y^2 + 19x^3y^3\\
     + 12x^2y^4 - 12xy^5 + 2y^6 - a^3b^3
-\end{multline} 
+\end{multline}
 ~~~~~~~
 
 - Il existe des versions étoilées `equation*`, `multiline*`,... sans numéro d'équation.
@@ -109,8 +109,8 @@ $$
   Par exemple
 
   ~~~~~~~
-  \[ 
-    \cos(x) \text{ pour } x \in A 
+  \[
+    \cos(x) \text{ pour } x \in A
   \]
   ~~~~~~~
 
@@ -126,9 +126,9 @@ $$
 
   On peut à la place de `(` avoir `\{`, `[`, `|`, `\|`, `<` ou rien `.`
 
-  + on peut mélanger : `\left\{ ... \right|` 
+  + on peut mélanger : `\left\{ ... \right|`
 
-  + pour ne mettre qu'à gauche par exemple : `\left\{ ... \right.` 
+  + pour ne mettre qu'à gauche par exemple : `\left\{ ... \right.`
 
 - Taille manuelle :
 
@@ -160,7 +160,7 @@ $$
       \text{Long}  & P=\frac13    & P=x \\
       \text{Court} & P=0          & P=y
     \end{array}
-  \]  
+  \]
   ~~~~~~~
 
 - N'oubliez pas l'existence de [www.tablesgenerator.com](http://www.tablesgenerator.com/).
@@ -169,7 +169,7 @@ $$
 
 Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à droite et à gauche réduits.
 
-- `matrix` (sans délimiteurs par défaut)  
+- `matrix` (sans délimiteurs par défaut)
 
   ~~~~~~~
   \begin{matrix}
@@ -183,7 +183,8 @@ Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à
 - `pmatrix` pour mettre entre (...)
 - `vmatrix` pour mettre entre \|...\|
 - `Vmatrix` pour mettre entre ∥...∥
-- `smallmatrix` est une version avec des espaces réduits
+- `smallmatrix` est une version avec des espaces réduits!!,
+  et il existe les version `bsmallmatrix`, `psmallmatrix`, ...
 
 ## Choix
 
@@ -200,7 +201,7 @@ Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à
   ~~~~~~~
 
 - `dcases` identique, mais les cellules sont en _display_
-- `dcases*` comme _dcases_, mais la deuxième colonne est en mode texte
+- pour `cases*` et `dcases*` la deuxième colonne est en mode texte
 
 # Opérateurs
 
@@ -237,4 +238,21 @@ Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à
 
 - `\frac12` est la même chose que `\frac{1}{2}`.
 - En plus de `\frac` il existe `\dfrac`, `\tfrac`, `\cfrac`.
+
+## Flèches
+
+  - Les standards : `\rightarrow`, `\leftarrow` et `\leftrightarrow`
+  - Les implications : `\Rightarrow`, `\Leftarrow` et `\Leftrightarrow`
+  - Les versions longues : `\long...` ou `\Long...`
+  - «s'envoie sur» : `\mapsto`
+
+## Vecteurs
+
+Il existe plusieurs méthodes :
+
+- la méthode standard : `\overrightarrow{a}`,
+- je vous recommande la bibliothèque `\usepackage[e]{esvect}`.
+  - exemples : `\vv{a}`, `\vv{AB}` ou `\vv{\mathcal{E}}`
+  - les options possibles pour les formes des flèches sont :
+  `a`, `b`, `c`, `d`, `e`, `f`, `g`, `h`.
 

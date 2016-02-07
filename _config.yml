@@ -1,17 +1,23 @@
 # Site settings
+# -------------
 title: TeX4 - LaTeX et HTML
 description: Cours sur (Xe)LaTeX et HTML(5) de Licence 2ème année de l'Université de Lille
 url: "https://ktzanev.github.io" # the base hostname & protocol for your site
 baseurl: "/tex4lille1/" # the subpath of your site, e.g. /blog/
 
 # libraries
+# ---------
 revealjsurl: "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/" # the path to RevealJS
 jqueryurl: "https://code.jquery.com/" # the path to jQuery
 bootstrapurl: "https://netdna.bootstrapcdn.com/bootstrap/3.1.1/" # the path to Bootstrap
 highlightjsurl: "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/" # the path to Bootstrap
 
 # Build settings
-markdown: kramdown
+# --------------
 
+# use kramdown (default for jekyll 3.0)
+markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter_opts:
+    disable : true # disable rouge, because I use highlight.js

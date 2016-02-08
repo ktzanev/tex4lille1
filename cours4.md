@@ -194,8 +194,8 @@ Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à
   \[
   (x-a)_+ =
       \begin{cases}
-         x-a & x \geq a \\
-        0 & \text{sinon}
+        x-a & x \geq a \\
+          0 & \text{sinon}
       \end{cases}
   \]
   ~~~~~~~
@@ -225,6 +225,10 @@ Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à
 
 ## Indices
 
+- Comme on l'a déjà vu :
+  - indice : `x_{i}`,
+  - exposant : `x^{k}`,
+  - les deux : `x_{i}^{k}` ou `x^{k}_{i}`.
 - Pour mettre plusieurs lignes d'indices il existe :
   `\substack{...\\ ...}` et `subarray`.
 - Pour mettre des indices dans les 4 coins :

@@ -12,7 +12,7 @@ codelang: tex
 
 - _JPG_ : idéal pour les photos
 - _PNG_ : idéal pour les illustrations, peut avoir des transparences
-  
+
   On peut utiliser ces 2 formats avec LaTeX, XeLaTeX, PDFLaTeX et HTML.
 
 - _GIF_ : semblable au _PNG_, pas de transparences, mais des animations possibles. Ne fonctionne pas en LaTeX, mais utilisable en HTML.
@@ -20,8 +20,8 @@ codelang: tex
 ## Vectoriels
 
 - _PDF_ : c'est le seul format accessible avec XeLaTeX, PDFLaTeX et LuaLaTeX
-- _EPS_ : c'est le seul format accessible avec LaTeX
-- _SVG_ : c'est le seul format accessible avec HTML
+- _EPS_ : c'est le seul format accessible avec LaTeX!! (il peut-être utilisé également avec XeLaTeX qui le converti en _PDF_)
+- _SVG_ : c'est le seul format accessible avec HTML, mais pas avec LaTeX
 
 Les logiciels d'édition d'images vectorielles, exportent en général dans les trois formats.
 
@@ -37,7 +37,7 @@ Grâce à la bibliothèque `graphicx` il suffit de faire :
 - la commande `\includegraphics` peut prendre des paramètres : `width`, `height`, `scale`, `angle`.
 
 Exemple :
-  `\includegraphics[height=5cm]{triangle.pdf}`
+  `\includegraphics[height=5cm]{triangle}`
 
 # Les figures
 
@@ -83,9 +83,9 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
 - L'environnement [picture](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/R%C3%A9alisation_de_graphiques_math%C3%A9matiques) natif dans LaTeX, mais très pauvre.
 - Le langage [metapost](http://tex.loria.fr/prod-graph/f-mpman-2.pdf) qui est compilé avec la commande `metapost`. Très performant en 2D, mais nécessite un outil externe et le résultat est en EPS.
 - Le langage [Asymptote](http://asymptote.sourceforge.net/) qui est inspiré de metapost. Très performant en 3D, mais nécessite un outil externe.
-- Le langage [PSTicks](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/Dessiner_avec_PSTricks) qui peut être écrit directement dans LaTeX. Le résultat est en EPS. N'est pas fait à la base pour [Xe\|Lua\|PDF]LaTeX.!! 
-  À compiler avec _xelatex_ !
-- Le langage [TikZ](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/Dessiner_avec_PSTricks) qui peut être écrit directement dans LaTeX. Il est inspiré de metapost et PSTrick, mais plus moderne. Fonctionne à merveille avec toutes les versions de [Xe|Lua|PDF][La|Con]TeX aussi bien en PS qu'en PDF.!!
+- Le langage [PSTicks](http://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/Dessiner_avec_PSTricks) qui peut être écrit directement dans LaTeX. Le résultat est en EPS. N'est pas fait à la base pour [Xe\|Lua\|PDF]LaTeX.!!
+  À compiler avec _XeLaTex_ !
+- Le langage [TikZ](https://fr.wikibooks.org/wiki/LaTeX/Dessiner_avec_LaTeX/Dessiner_avec_PGF_et_TikZ) qui peut être écrit directement dans LaTeX. Il est inspiré de metapost et PSTrick, mais plus moderne. Fonctionne à merveille avec toutes les versions de [Xe|Lua|PDF][La|Con]TeX aussi bien en PS qu'en PDF.!!
   C'est le langage que je vous conseille !
 
 ## TikZ (quelques notions)

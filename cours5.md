@@ -129,7 +129,7 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
 - `(A) circle (1cm)` : cercle de centre (A) et de rayon 1cm
 - `(A) ellipse (1cm and 2cm)` : ellipse de rayons 1cm et 2cm
 - `(A) arc (0:90:1cm)` : arc de cercle de rayon 1cm qui débute en (A), entre les angles 0° et 90°
-- `(A) .. controls (1,1) and (2,1) .. (B)` : courbe de Bézier entre (A) et (B), avec points de contrôle (1,1) et (2,1)
+- `(A) .. controls (-1,1) and (2,1) .. (B)` : courbe de Bézier entre (A) et (B), avec points de contrôle (-1,1) et (2,1)
 - `(A) rectangle (B)` : rectangle avec côtés // aux axes et coins opposés (A) et (B)
 - `(A) grid (B)` : une grille à la place du rectangle
 - `plot ({\x},{sin(\x r)})` : dessine la fonction sinus (en radians)
@@ -142,8 +142,8 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
 - `[rotate=70]` : rotation d'angle 70°
 - `[scale=1.5]` : homothétie de rapport 1.5
 - ces transformations n'affectent que les coordonnées explicites, mais pas les points nommés (comme `(A)`), ni les épaisseurs des lignes
-- quand il y a plusieurs transformations ou options (comme `[xshift=25mm, rotate=30]`) elles sont exécutées de gauche à droite
-- si on souhaite qu'une transformation ou une option s'applique à plusieurs chemins on peut utiliser l'environnement `scope` :
+- quand il y a plusieurs transformations (comme `[xshift=25mm, rotate=30]`) elles sont exécutées de droite à gauche
+- si on souhaite qu'une transformation (ou une option) s'applique à plusieurs chemins on peut utiliser l'environnement `scope` :
 
   ~~~~~~~
   \begin{scope}[xshift=25mm,rotate=30]

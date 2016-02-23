@@ -162,9 +162,9 @@ Il existe plusieurs «langages» qui permettent de dessiner avec LaTeX
 - `[->]` pour que la ligne se termine avec une flèche. Il existe plusieurs types de flèches, par exemple `[-latex]`,`[-stealth]`, `[-|]`, ...
 - `[rounded corners=3mm]` pour arrondir les coins
 - Pour `plot` il y a plusieurs options comme :
-- `[domain=0:4]` pour dire que `\x` varie entre 0 et 4
-- `samples=100` pour utiliser 100 points lors du plot (par défaut c'est 20)
-- `smooth` pour lisser la courbe
+  + `[domain=0:4]` pour dire que `\x` varie entre 0 et 4
+  + `samples=100` pour utiliser 100 points lors du plot (par défaut c'est 20)
+  + `smooth` pour lisser la courbe
 
 ## TikZ (compléments)
 

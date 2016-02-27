@@ -1,8 +1,8 @@
 ---
 layout: cours
-title: Cours 5 - (Xe)LaTeX
-shorttitle: Cours 5
-shorturl: git.io/vu7GP
+title: Cours (Xe)LaTeX 4
+shorttitle: (Xe)LaTeX 4
+shorturl: git.io/v2gjM
 codelang: tex
 ---
 

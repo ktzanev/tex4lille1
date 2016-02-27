@@ -1,8 +1,8 @@
 ---
 layout: cours
-title: Cours 1 - Introduction
-shorttitle: Cours 1
-shorturl: git.io/vuGEG
+title: Cours d'introduction
+shorttitle: Introduction
+shorturl: git.io/v22eJ
 codelang: tex
 ---
 
@@ -62,7 +62,7 @@ codelang: tex
   {: class="html"}
 
 - LaTeX [ ](gist://11bc70d9566efc501ff3/hello_world.tex)
- 
+
   ~~~~~~
   \documentclass{article}
 
@@ -73,7 +73,7 @@ codelang: tex
 
 # (La)TeX : comment ça fonctionne
 
-- Si le document (principal) est un fichier texte appelé _monfichier.tex_, on compile d'une des façons suivantes : 
+- Si le document (principal) est un fichier texte appelé _monfichier.tex_, on compile d'une des façons suivantes :
 _(en fonction du compilateur choisi)_
   - `xelatex monfichier.tex`{: class="code"}
   - `lualatex monfichier.tex`{: class="code"}

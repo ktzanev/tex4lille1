@@ -2,8 +2,8 @@
 layout: default
 ---
 
-- Pour ne pas commencer à vide avec _LaTeX_: 
-  + un modèle _XeLaTeX_: [ ](exemple://ModeleXeLaTeX.tex) 
+- Pour ne pas commencer à vide avec _LaTeX_:
+  + un modèle _XeLaTeX_: [ ](exemple://ModeleXeLaTeX.tex)
   + un modèle _PDFLaTeX_: [ ](exemple://ModelePDFLaTeX.tex)
   + un modèle « universel » _LaTeX_: [ ](exemple://ModeleAllLaTeX.tex)
   + un modèle _TikZ_: [ ](exemple://ModeleTikZ.tex)
@@ -11,17 +11,17 @@ layout: default
 {: class='modeles'}
 
 
-- [Cours 1](cours1.html) [18 et 19 janvier 2016] :
+- [Cours d'introduction](cours_intro.html) [18 et 19 janvier 2016] :
   +   Généralités sur (Xe)LaTeX et HTML
   +   Liens utiles
-- [Cours 2](cours2.html) [25 et 26 janvier 2016]
+- [Cours LaTeX 1](cours_latex1.html) [25 et 26 janvier 2016]
   +   Le préambule standard
   +   Les caractères spéciaux
   +   Les espaces
   +   Les alignements
   +   Polices
   +   Caractères et symboles particuliers
-- [Cours 3](cours3.html) [1 et 2 février 2016]
+- [Cours LaTeX 2](cours_latex2.html) [1 et 2 février 2016]
   +   Structure du document
   +   Table des matières
   +   Définitions, Propositions, Théorèmes, ...
@@ -29,7 +29,7 @@ layout: default
   +   Les liens
   +   Les listes
   +   En-têtes et pieds des pages
-- [Cours 4](cours4.html) [8 et 9 février 2016]
+- [Cours LaTeX 3](cours_latex3.html) [8 et 9 février 2016]
   +   Écrire des maths
   +   Polices en mode math
   +   Texte, espaces
@@ -37,7 +37,7 @@ layout: default
   +   Tableaux et matrices
   +   Opérateurs
   +   Compléments : Indices et Fractions
-- [Cours 5](cours5.html) [22 et 23 février 2016]
+- [Cours LaTeX 4](cours_latex4.html) [22 et 23 février 2016]
   +   Les formats d'images
   +   Inclure une image
   +   Les figures

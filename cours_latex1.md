@@ -1,8 +1,8 @@
 ---
 layout: cours
-title: Cours 2 - (Xe)LaTeX
-shorttitle: Cours 2
-shorturl: git.io/vuZkr
+title: Cours (Xe)LaTeX 1
+shorttitle: (Xe)LaTeX 1
+shorturl: git.io/v2gjo
 codelang: tex
 ---
 
@@ -33,7 +33,7 @@ Exemple dans le document _ModelXeLaTeX.tex_ [ ](exemple://ModeleXeLaTeX.tex).
     \end{tikzpicture}
   \end{document}
   ~~~~~~
-  
+
 
 - Pour PSTricks [ ](gist://a7600e1f567a6b13ff36/ModelPSTricks.tex) (à compiler avec XeLaTeX)
 
@@ -88,10 +88,10 @@ Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/proj
 
 ## «Recommandations» générales (pour ShareLaTeX)
 
-- N'utilisez pas d'accents ni des symboles bizarres dans les noms des fichiers.!! 
+- N'utilisez pas d'accents ni des symboles bizarres dans les noms des fichiers.!!
   Les lettres, chiffres et `_` (souligné) suffisent.
 - Commentez votre code si nécessaire.
-- Utilisez des commentaires «lignes» pour rendre des parties du code visibles. 
+- Utilisez des commentaires «lignes» pour rendre des parties du code visibles.
 
   ~~~~~~
   % ----------------------------

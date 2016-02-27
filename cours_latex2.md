@@ -1,8 +1,8 @@
 ---
 layout: cours
-title: Cours 3 - (Xe)LaTeX
-shorttitle: Cours 3
-shorturl: git.io/vuBDO
+title: Cours (Xe)LaTeX 2
+shorttitle: (Xe)LaTeX 2
+shorturl: git.io/v2gji
 codelang: tex
 ---
 

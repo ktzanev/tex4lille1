@@ -43,21 +43,20 @@ layout: default
   +   Les figures
   +   Incruster une image
   +   Dessiner avec LaTeX : TikZ
-
-<!--
-- Cours 6 [29 février et 1 mars 2016] est un cours particulier de questions-réponses sur les mémoires en LaTeX.
-- [Cours 7](cours7.html) [7 et 8 mars 2016]
+- [Cours HTML 1](cours_html1.html) [29 février et 1 mars 2016]
   +   Le HTML5: histoire, la structure DOM, ...
   +   Les balises
   +   Les caractères spéciaux
-- [Cours 8](cours8.html) [14 et 15 mars 2016]
+- [Cours HTML 2](cours_html1.html) [7 et 8 mars 2016]
   +   CSS3 : selecteurs
   +   CSS3 : propriétés
   +   CSS3 : Box-model
-- [Cours 9](cours9.html) [21 mars et 22 mars 2016]
+
+{::comment}
+- [Cours HTML 3](cours_html3.html) [14 mars et 15 mars 2016]
   +   MathJax
   +   Bootstrap
-- [Cours 10](cours10.html) [18 et 19 avril 2016]
+  +   Thèmes libres
+- [Cours HTML 4](cours_html4.html) [21 et 22 mars 2016]
   +   SVG
-
- -->
+{:/comment}

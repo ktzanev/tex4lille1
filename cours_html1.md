@@ -16,7 +16,7 @@ codelang: html
   Son support est un fichier texte avec extension `html` et au type MIME `text/html`.
 - CSS3 est un langage de description de données structurées en arbre.!!
   Son support est un fichier texte avec extension `css` et au type MIME `text/css`. Il peut être aussi inclus directement dans une page web avec la balise `<style>` ou l'attribut `style="..."`.
-- JS est un langage de programmation à part entière, créé à la base pour rendre dynamique les pages web en les modifiants.!!
+- JS est un langage de programmation à part entière, créé à la base pour rendre les pages web  dynamiques en les modifiants.!!
   Son support est un fichier texte avec extension `js` et au type MIME `application/javascript`. Il peut être aussi inclus directement dans une page web avec la balise `<script>`.
 - SVG est un langage à balises pour décrire des images vectorielles.!!
   Son support est un fichier texte avec extension `svg` et au type MIME `image/svg+xml`. Il peut être aussi inclus directement dans une page web avec la balise `<svg>`.

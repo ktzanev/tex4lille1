@@ -47,7 +47,7 @@ layout: default
   +   Le HTML5: histoire, la structure DOM, ...
   +   Les balises
   +   Les caractères spéciaux
-- [Cours HTML 2](cours_html1.html) [7 et 8 mars 2016]
+- [Cours HTML 2](cours_html2.html) [7 et 8 mars 2016]
   +   CSS3 : selecteurs
   +   CSS3 : propriétés
   +   CSS3 : Box-model

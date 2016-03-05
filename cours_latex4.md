@@ -54,6 +54,7 @@ Exemple :
   {: class="tex xsmaller"}
 
 - Le paramètre `[h]` est pour «*h*ere» et `[!]` pour dire «vraiment». On peut utiliser aussi `[t]` pour «*t*op of the page» ou `[b]` pour «*b*ottom of the page»
+- avec la bibliothèque `float` on peut utiliser `[H]` qui est «plus fort» que `[h!]`
 - `\centering` c'est pour centrer l'image
 - `\caption` c'est pour mettre une légende (titre)
 - `\lable` doit être mis après _caption_, si on en a besoin

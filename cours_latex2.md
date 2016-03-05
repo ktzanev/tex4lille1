@@ -162,6 +162,16 @@ Grâce à la librairie `hyperref` :
   \end{enumerate}
   ~~~~~~~
 
+- Description :
+
+  ~~~~~~~
+  \begin{description}
+    \item[ensemble] machin bidule qui contient des éléments
+    \item[élément] les trucs dans les ensembles
+  \end{description}
+  ~~~~~~~
+
+
 ## et encore ...
 
 - Imbriquées :

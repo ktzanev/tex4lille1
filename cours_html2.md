@@ -12,9 +12,14 @@ codelang: css
 ## Exemple
 
 ~~~~~~~
+/* les titres de niveau 1 */
+
 h1 {
   color:red;
 }
+
+/* les <div> de classe "message" */
+
 div.message {
   background-color: #fee;
   text-align: center;

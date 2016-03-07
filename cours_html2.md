@@ -179,7 +179,7 @@ Pour plus d'information voir [W3C : unités](http://www.w3.org/Style/Examples/00
 - `position:relative` : relativement à la position par défaut (sa place reste réservée). A utiliser avec `top`, `right`, `bottom` ou `left`.
 - `position:absolute` : placé de façon absolu par rapport au premier parent qui n'est pas « static » (il ne prend pas de place).
 - `position:fixed` : fixé par rapport à l'écran.
-- `position:float` : à voir par exemple [ici](http://openweb.eu.org/articles/initiation_float/).
+- Le positionnement « flottant », à voir par exemple [ici](http://openweb.eu.org/articles/initiation_float/).
 
 [[exemple]](http://codepen.io/ktzanev/pen/XJovMB?editors=110)
 

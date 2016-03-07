@@ -41,7 +41,12 @@ Exemple :
 
 # Les figures
 
-- Si on souhaite, en plus d'inclure l'image, y mettre un titre, pouvoir la référencer, qu'elle soit centrée avec passage à la ligne!! on peut utiliser l'environnement `figure`.!! Exemple :
+Une figure est une image avec une légende (titre) et souvent avec un numéro qu'on peut étiqueter et utiliser après par exemple ainsi :
+`... on peut voir dans la figure \ref{fig:sinc} que ...`.
+
+## L'environnement standard
+
+- Exemple de l'environnement `figure`:
 
   ~~~~~~~
   \begin{figure}[h!]
@@ -51,19 +56,43 @@ Exemple :
     \label{fig:sinc}
   \end{figure}
   ~~~~~~~
-  {: class="tex xsmaller"}
 
 - Le paramètre `[h]` est pour «*h*ere» et `[!]` pour dire «vraiment». On peut utiliser aussi `[t]` pour «*t*op of the page» ou `[b]` pour «*b*ottom of the page»
 - avec la bibliothèque `float` on peut utiliser `[H]` qui est «plus fort» que `[h!]`
 - `\centering` c'est pour centrer l'image
 - `\caption` c'est pour mettre une légende (titre)
 - `\lable` doit être mis après _caption_, si on en a besoin
-- Si on souhaite utiliser plusieurs images côte-à-côte dans une figure, on peut utiliser l'environnement `subfigure`
 - Dans _figure_ on n'est pas obligé d'avoir `includegraphics`, on peut mettre n'importe quel code, par exemple des commandes pour dessiner
 
-# Incruster une image
+## Sans l'environnement standard
 
-- Si on souhaite que le texte coule autour de l'image, on peut utiliser l'environnement `wrapfigure` de la bibliothèque `wrapfig`.!! Exemple :
+- La bibliothèque `caption` nous permet d'avoir les avantages de l'environnement `figure` sans lui.
+- Ainsi par exemple on peut centré une image simplement :
+
+  ~~~~~~~
+  \begin{center}
+    \includegraphics[width=7cm]{sinc}
+    \captionof{figure}{Le graphe de sinus cardinal.}
+    \label{fig:sinc}
+  \end{center}
+  ~~~~~~~
+
+  On utilise `captionof` à la place de `caption` pour spécifier qu'il s'agit d'une figure.
+
+- Ou mettre plusieurs images côte-à-côte dans une figure :
+
+  ~~~~~~~
+  \begin{center}
+    \captionsetup{type=figure}
+    \captionbox{Légende une.\label{fig:une}}{\includegraphics[width=4cm]{fig1}}
+    \quad
+    \captionbox{Légende deux.\label{fig:deux}}{\includegraphics[width=4cm]{fig2}}
+  \end{center}
+  ~~~~~~~
+
+## Incruster une image
+
+- Si on souhaite que le texte coule autour de l'image, on peut utiliser l'environnement `wrapfigure` de la bibliothèque `wrapfig` à la place de `figure`.!! Exemple :
 
   ~~~~~~~
   \begin{wrapfigure}{r}{0.5\textwidth}

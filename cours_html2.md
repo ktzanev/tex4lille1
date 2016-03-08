@@ -94,7 +94,7 @@ commencent par `::`
 
 - `::first-line` la première ligne
 - `::first-letter` la première lettre
-- `::bafore`, `::after` permet de rajouter du texte au début et à la fin de l'élément.
+- `::before`, `::after` permet de rajouter du texte au début et à la fin de l'élément.
 - `::selection` la partie sélectionnée par l'utilisateur
 
 [[example]](http://codepen.io/ktzanev/pen/xbmvZy?editors=110)

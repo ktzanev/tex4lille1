@@ -51,12 +51,12 @@ layout: default
   +   CSS3 : selecteurs
   +   CSS3 : propriétés
   +   CSS3 : Box-model
-
-{::comment}
 - [Cours HTML 3](cours_html3.html) [14 mars et 15 mars 2016]
   +   MathJax
   +   Bootstrap
   +   Thèmes libres
+
+{::comment}
 - [Cours HTML 4](cours_html4.html) [21 et 22 mars 2016]
   +   SVG
 {:/comment}

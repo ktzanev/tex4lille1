@@ -3,7 +3,7 @@
 
 {% include cours_head.html %}
 
-  <body>
+  <body {% if page.bodyclass %}class="{{page.bodyclass}}"{% endif %}>
 
     <div class="reveal">
       <div class="slides">

@@ -47,6 +47,6 @@ function preReveal(codelang) {
     }
   });
 
-  // pre are also fragments
-  $('pre').addClass('fragment');
+  // pre and blockquote are also fragments
+  $('pre, blockquote').addClass('fragment');
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="250" height="250" >
+
+  <polygon points="30,30 200,100 100,200" stroke="red" fill="none"/>
+  <circle cx="100" cy ="100" r="100" stroke="blue" fill="none" />
+
+  <circle cx="30" cy ="30" r="3" />
+  <circle cx="200" cy ="100" r="3" />
+  <circle cx="100" cy ="200" r="3" />
+
+  <text x="20" y="25">A</text>
+  <text x="205" y="105">B</text>
+  <text x="95" y="220">C</text>
+</svg>

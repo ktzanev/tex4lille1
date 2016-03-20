@@ -55,8 +55,5 @@ layout: default
   +   MathJax
   +   Bootstrap
   +   Thèmes libres
-
-{::comment}
 - [Cours HTML 4](cours_html4.html) [21 et 22 mars 2016]
   +   SVG
-{:/comment}

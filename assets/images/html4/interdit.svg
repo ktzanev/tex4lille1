@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 20 20" width="200" height="200">
+  <g stroke="red" stroke-width="3">
+    <circle r="8" fill="white"/>
+    <line x1="-5" y1="-5" x2="5" y2="5" />
+  </g>
+</svg>

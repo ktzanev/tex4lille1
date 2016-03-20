@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="-200 -150 400 300">
+  <ellipse cx="0" cy="0" rx="200" ry="150" fill="#ff87a1"/>
+  <ellipse cx="0" cy="70" rx="100" ry="80" fill="#d45589"/>
+  <circle cx="-30" cy="70" r="20" fill="#88224c"/>
+  <circle cx="30" cy="70" r="20" fill="#88224c"/>
+  <circle cx="-50" cy="-70" r="40" fill="white"/>
+  <circle cx="-50" cy="-70" r="30" fill="black"/>
+  <circle cx="-40" cy="-80" r="10" fill="white"/>
+  <circle cx="50" cy="-70" r="40" fill="white"/>
+  <circle cx="50" cy="-70" r="30" fill="black"/>
+  <circle cx="60" cy="-80" r="10" fill="white"/>
+</svg>

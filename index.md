@@ -5,7 +5,7 @@ layout: default
 - Pour ne pas commencer à vide avec _LaTeX_:
   + un modèle _XeLaTeX_: [ ](exemple://ModeleXeLaTeX.tex)
   + un modèle _PDFLaTeX_: [ ](exemple://ModelePDFLaTeX.tex)
-  + un modèle « universel » _LaTeX_: [ ](exemple://ModeleAllLaTeX.tex)
+  + un modèle « universel » _LaTeX_: [ ](exemple://ModeleToutLaTeX.tex)
   + un modèle _TikZ_: [ ](exemple://ModeleTikZ.tex)
   + un modèle _PSTricks_: [ ](exemple://ModelePSTricks.tex)
 {: class='modeles'}

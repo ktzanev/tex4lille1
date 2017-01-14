@@ -33,7 +33,7 @@ Grâce à la bibliothèque `graphicx` il suffit de faire :
 
 - pas besoin de mettre l'extension _.pdf_, _.jpg_, _.png_ ou _.gif_
 - le fichier doit être dans le même répertoire que la source tex, ou ...
-- si vos images sont dans un sous-répertoire, par exemple _images_, on peut le signaler à LaTeX avec `\graphicspath{{images/}}`.
+- si vos images sont dans un sous-répertoire, par exemple _images_, on peut le signaler à LaTeX avec `\graphicspath{{"{{images/"}}}}`.
 - la commande `\includegraphics` peut prendre des paramètres : `width`, `height`, `scale`, `angle`.
 
 Exemple :

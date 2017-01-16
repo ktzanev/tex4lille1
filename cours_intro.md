@@ -161,5 +161,5 @@ Plusieurs site existent :
   À ma connaissance seul _Plnkr.co_ inclut dans sa version gratuite la possibilités d'avoir un compte avec plusieurs projets.
 
 - [cssdeck.com](http://cssdeck.com/)
-- [Mozilla Thimble](https://thimble.webmaker.org/fr/)
+- [Mozilla Thimble](https://thimble.mozilla.org/fr/)
 

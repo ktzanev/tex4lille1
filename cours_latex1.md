@@ -163,6 +163,7 @@ Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/proj
 - `\hfill` identique à `\hspace{\fill}`
 - `\hrulefill` pour _____ et `\dotfill` pour .....
 - `\indent` et `\noindent`
+- `\parindent`, exemple : `\setlength{\parindent}{0em}`
 - **Surtout ne pas faire : `\ \ \ \ ` !**
 
 ## Les espaces verticaux

@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% comment %}
 - Pour ne pas commencer à vide avec _LaTeX_:
   + un modèle _XeLaTeX_: [ ](exemple://ModeleXeLaTeX.tex)
   + un modèle _PDFLaTeX_: [ ](exemple://ModelePDFLaTeX.tex)
@@ -10,14 +9,11 @@ layout: default
   + un modèle _TikZ_: [ ](exemple://ModeleTikZ.tex)
   + un modèle _PSTricks_: [ ](exemple://ModelePSTricks.tex)
 {: class='modeles'}
-{% endcomment %}
 
 
 - [Cours d'introduction](cours_intro.html) [16 et 17 janvier 2017] :
   +   Généralités sur (Xe)LaTeX et HTML
   +   Liens utiles
-
-{% comment %}
 - [Cours LaTeX 1](cours_latex1.html) [23 et 24 janvier 2017]
   +   Le préambule standard
   +   Les caractères spéciaux
@@ -25,6 +21,8 @@ layout: default
   +   Les alignements
   +   Polices
   +   Caractères et symboles particuliers
+
+{% comment %}
 - [Cours LaTeX 2](cours_latex2.html) [30 et 31 janvier 2017]
   +   Structure du document
   +   Table des matières

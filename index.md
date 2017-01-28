@@ -21,8 +21,6 @@ layout: default
   +   Les alignements
   +   Polices
   +   Caractères et symboles particuliers
-
-{% comment %}
 - [Cours LaTeX 2](cours_latex2.html) [30 et 31 janvier 2017]
   +   Structure du document
   +   Table des matières
@@ -31,6 +29,8 @@ layout: default
   +   Les liens
   +   Les listes
   +   En-têtes et pieds des pages
+
+{% comment %}
 - [Cours LaTeX 3](cours_latex3.html) [6 et 7 février 2017]
   +   Écrire des maths
   +   Polices en mode math

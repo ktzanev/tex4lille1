@@ -186,6 +186,8 @@ Les matrices sont des _array_ avec les colonnes centrées et avec des espaces à
 - `smallmatrix` est une version avec des espaces réduits!!,
   et il existe les version `bsmallmatrix`, `psmallmatrix`, ...
 
+Pour des matrices plus complèxes le package `blkarray` peut-être utile.
+
 ## Choix
 
 - `cases` est un cas particulier de _array_ avec deux colonnes alignées à gauche, et une accolade à gauche

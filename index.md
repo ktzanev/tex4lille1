@@ -29,8 +29,6 @@ layout: default
   +   Les liens
   +   Les listes
   +   En-têtes et pieds des pages
-
-{% comment %}
 - [Cours LaTeX 3](cours_latex3.html) [6 et 7 février 2017]
   +   Écrire des maths
   +   Polices en mode math
@@ -45,6 +43,8 @@ layout: default
   +   Les figures
   +   Incruster une image
   +   Dessiner avec LaTeX : TikZ
+
+{% comment %}
 - [Cours HTML 1](cours_html1.html) [27 et 28 février 2017]
   +   Le HTML5: histoire, la structure DOM, ...
   +   Les balises

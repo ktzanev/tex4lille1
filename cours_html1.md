@@ -239,4 +239,5 @@ Mais malheureusement il ne génère pas `<thead>`, `<tfoot>` et `<tbody>`.
 - `&euro;` = €
 - `&copy;` = ©
 - `&reg;` = ®
-- ... pour une liste complète voir [w3.org](http://dev.w3.org/html5/html-author/charref)
+- ... pour une liste complète voir [w3.org](http://dev.w3.org/html5/html-author/charref),
+- et pour les symboles mathématiques voir [cette page](https://www.w3schools.com/charsets/ref_utf_math.asp).

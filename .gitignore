@@ -65,3 +65,5 @@ TeXAux/
 *.zip
 *.sublime*
 .eslintrc
+assets/
+exemples/

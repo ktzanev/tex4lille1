@@ -43,20 +43,20 @@ layout: default
   +   Les figures
   +   Incruster une image
   +   Dessiner avec LaTeX : TikZ
-
-{% comment %}
-- [Cours HTML 1](cours_html1.html) [27 et 28 février 2017]
+- [Cours HTML 1](cours_html1.html) [6 et 7 mars 2017]
   +   Le HTML5: histoire, la structure DOM, ...
   +   Les balises
   +   Les caractères spéciaux
-- [Cours HTML 2](cours_html2.html) [6 et 7 mars 2017]
+
+{% comment %}
+- [Cours HTML 2](cours_html2.html) [13 mars et 14 mars 2017]
   +   CSS3 : selecteurs
   +   CSS3 : propriétés
   +   CSS3 : Box-model
-- [Cours HTML 3](cours_html3.html) [13 mars et 14 mars 2017]
+- [Cours HTML 3](cours_html3.html) [20 et 21 mars 2017]
   +   MathJax
   +   Bootstrap
   +   Thèmes libres
-- [Cours HTML 4](cours_html4.html) [20 et 21 mars 2017]
+- [Cours HTML 4](cours_html4.html) [27 et 28 mars 2017]
   +   SVG
 {% endcomment %}

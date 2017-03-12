@@ -47,7 +47,7 @@ Par ordre de préférence (et inversement à la priorité)
 - Directement dans un élément:
   `<span style="font-family:monospace;">...</span>`
 
-[[exemple]](http://codepen.io/ktzanev/pen/vEvvpO?editors=110)
+[[exemple]](https://gist.run/?id=8dd10c36992e0291f9b21d8d83a31d6f)
 
 # Sélecteurs
 
@@ -65,15 +65,15 @@ sélecteur {
 
 ## Sélecteurs de base
 
-- `*` : _sélecteur universel._ Correspond à tout élément. [[example]](http://codepen.io/ktzanev/pen/ogJJEv?editors=110)
-- `E` : _sélecteur de balise._ Correspond à tout élément E (c.à.d., un élément de type E). [[example]](http://codepen.io/ktzanev/pen/PwXXQb?editors=110)
+- `*` : _sélecteur universel._ Correspond à tout élément. [[example]](https://gist.run/?id=ddd8ae269b74308e8a3b658bd96167c6)
+- `E` : _sélecteur de balise._ Correspond à tout élément E (c.à.d., un élément de type E). [[example]](https://gist.run/?id=354f8ea4010e8f9a48eb8778d003507d)
 - `E F` : _sélecteur de descendant._ Correspond à tout élément F qui est un descendant de l'élément E.
-- `E > F` : _sélecteur d'enfant._ Correspond à tout élément F qui est un enfant de l'élément E. [[example]](http://codepen.io/ktzanev/pen/pvqqaL?editors=110)
-- `E + F` : _sélecteur d'adjacence._ Correspond à tout élément F immédiatement précédé par un élément E. [[example]](http://codepen.io/ktzanev/pen/gbZZew?editors=110)
+- `E > F` : _sélecteur d'enfant._ Correspond à tout élément F qui est un enfant de l'élément E. [[example]](https://gist.run/?id=956c3f357071348d92f390825b61b04a)
+- `E + F` : _sélecteur d'adjacence._ Correspond à tout élément F immédiatement précédé par un élément E. [[example]](https://gist.run/?id=9ff35ff69a0280c50925188431318a1f)
 - `E[foo]` : _sélecteur d'attribut._ Correspond à tout élément E avec l'attribut « foo » (quelle qu'en soit sa valeur).
-- `E[foo="boo"]` : _sélecteur valeur d'attribut._ Correspond à tout élément E dont l'attribut « foo » a exactement la valeur « boo ». [[example]](http://codepen.io/ktzanev/pen/yyGGjj?editors=110)
-- `.foo` : _sélecteur de classe._ Correspond à tout élément qui est de classe « foo ». C'est identique à `[class~="foo"]`. [[example]](http://codepen.io/ktzanev/pen/JowwBQ?editors=110)
-- `#foo` : _sélecteur d'ID._ Correspond à l'élément dont l'id est « foo ». [[example]](http://codepen.io/ktzanev/pen/gbZZBg?editors=110)
+- `E[foo="boo"]` : _sélecteur valeur d'attribut._ Correspond à tout élément E dont l'attribut « foo » a exactement la valeur « boo ». [[example]](https://gist.run/?id=49cf079f61ef9ef2cad4194bc3daf3d7)
+- `.foo` : _sélecteur de classe._ Correspond à tout élément qui est de classe « foo ». C'est identique à `[class~="foo"]`. [[example]](https://gist.run/?id=4532775d011ecbff71384deea2830cbe)
+- `#foo` : _sélecteur d'ID._ Correspond à l'élément dont l'id est « foo ». [[example]](https://gist.run/?id=552a346c2ea3426484f87ba3707e874e)
 
 ## Pseudo-classes
 
@@ -86,7 +86,7 @@ commencent par `:`
 - `:nth-child(n)` n-ème enfant (n=1,2,..., even, odd).
 - `:empty` les balises vides
 
-[[example]](http://codepen.io/ktzanev/pen/wBRVvM?editors=110)
+[[example]](https://gist.run/?id=764b30e3804cce2591271579e24dc315)
 
 ## Pseudo-éléments
 
@@ -97,7 +97,7 @@ commencent par `::`
 - `::before`, `::after` permet de rajouter du texte au début et à la fin de l'élément.
 - `::selection` la partie sélectionnée par l'utilisateur
 
-[[example]](http://codepen.io/ktzanev/pen/xbmvZy?editors=110)
+[[example]](https://gist.run/?id=e784220e0939493d0d13af66516ff0ec)
 
 
 ## Combinaison de sélecteurs
@@ -124,7 +124,7 @@ L'ordre des priorité (de plus important vers le moins important) :
 - Les sélecteurs qui sont dans la balise `<style>`
 - La dernière propriété dans l'ordre
 
-[[exemple]](http://codepen.io/ktzanev/pen/vEvvpO?editors=110)
+[[exemple]](https://gist.run/?id=8dd10c36992e0291f9b21d8d83a31d6f)
 
 # Propriétés
 
@@ -145,7 +145,7 @@ Il y a des priorités qui sont héritées par défaut et d'autre qui ne le sont 
 - Par exemple `color` et `font-size` sont héritées.
 - Mais `border`, `margin` et `padding` ne le sont pas.
 
-On peut changer ce comportement avec les valeurs `inherit` (pour forcer l'héritage) ou `initial` (pour arrêter l'héritage et forcer la valeur initiale). [[exemple]](http://codepen.io/ktzanev/pen/gbZqLX?editors=110)
+On peut changer ce comportement avec les valeurs `inherit` (pour forcer l'héritage) ou `initial` (pour arrêter l'héritage et forcer la valeur initiale). [[exemple]](https://gist.run/?id=0a77f12ac1843732679d8d49e8938b35)
 
 ## Unités
 
@@ -181,6 +181,6 @@ Pour plus d'information voir [W3C : unités](http://www.w3.org/Style/Examples/00
 - `position:fixed` : fixé par rapport à l'écran.
 - Le positionnement « flottant », à voir par exemple [ici](http://openweb.eu.org/articles/initiation_float/).
 
-[[exemple]](http://codepen.io/ktzanev/pen/XJovMB?editors=110)
+[[exemple]](https://gist.run/?id=4847bc0f3b90ba209e0367bdad8ed4d5)
 
 

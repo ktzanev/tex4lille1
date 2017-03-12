@@ -47,12 +47,12 @@ layout: default
   +   Le HTML5: histoire, la structure DOM, ...
   +   Les balises
   +   Les caractères spéciaux
-
-{% comment %}
 - [Cours HTML 2](cours_html2.html) [13 mars et 14 mars 2017]
   +   CSS3 : selecteurs
   +   CSS3 : propriétés
   +   CSS3 : Box-model
+
+{% comment %}
 - [Cours HTML 3](cours_html3.html) [20 et 21 mars 2017]
   +   MathJax
   +   Bootstrap

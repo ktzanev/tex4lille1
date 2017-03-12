@@ -66,4 +66,7 @@ TeXAux/
 *.sublime*
 .eslintrc
 assets/
-exemples/
+bacasable/
+exemples/*.pdf
+
+

@@ -21,4 +21,4 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     disable : true # disable rouge, because I use highlight.js
-exclude: [bacasable]
+exclude: [bacasable,exemples/Gists]

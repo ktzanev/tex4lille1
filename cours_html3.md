@@ -80,14 +80,14 @@ Pour un usage simple, il suffit d'inclure de fichier css à partir d'un cdn:
 
 ~~~~~~~
 <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 ~~~~~~~
 
 Pour un usage plus poussé, il va falloir inclure aussi des javascript (en bas de la balise `<body>`) :
 
 ~~~~~~~
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 ~~~~~~~
 
 ## La typographie
@@ -97,7 +97,8 @@ Bootstrap change le CSS par défaut et introduit beaucoup de classes css très u
 Par exemple `text-center`, `text-uppercase`
 ou `list-inline` (à utiliser dans un `<ul>`).
 
-[[exemple]](http://codepen.io/ktzanev/pen/qEvyyX?editors=100)
+[[exemple]](https://gist.run/?id=8b179b950e1adfdc40720e05f10a541b)
+[+](http://codepen.io/ktzanev/pen/qEvyyX?editors=100)
 
 Pour plus d'information voir [Typography (en anglais)](http://getbootstrap.com/css/#type).
 
@@ -116,7 +117,8 @@ Par exemple:
 
 ces deux div vont être côte-à-côte sur un ordinateurs (largeur >= 992px), mais vont être l'un sous l'autre pour un écran de tablette ou téléphone.
 
-[[exemple]](http://codepen.io/ktzanev/pen/ZYPjOz?editors=110)
+[[exemple]](https://gist.run/?id=a9899fb681d8639c69e8ad7fa3907c39)
+[+](http://codepen.io/ktzanev/pen/ZYPjOz?editors=110)
 
 Pour plus d'information on peut consulter [cette page en français](http://creersonsiteweb.net/page-bootstrap-grille) ou [celle-ci](http://openclassrooms.com/courses/prenez-en-main-bootstrap/une-grille), ou [la documentation officielle en anglais](http://getbootstrap.com/css/#grid-options).
 
@@ -130,7 +132,8 @@ Pour plus d'information on peut consulter [cette page en français](http://creer
 
 Pour utiliser une [icône](http://getbootstrap.com/components/#glyphicons) il suffit de rajouter dans un `<span>` vide la classe `glyphicon` et la classe avec le nom de l'icône, par exemple `glyphicon-camera`.
 
-[[exemple]](http://codepen.io/ktzanev/pen/YPgjpr?editors=110)
+[[exemple]](https://gist.run/?id=b6c90a7e1ce6c62a028e6ed95a9b9179)
+[[+]](http://codepen.io/ktzanev/pen/YPgjpr?editors=110)
 
 # Thèmes HTML5 (Bootstrap)
 

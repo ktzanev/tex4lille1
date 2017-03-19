@@ -137,10 +137,10 @@ Pour utiliser une [icône](http://getbootstrap.com/components/#glyphicons) il su
 
 # Thèmes HTML5 (Bootstrap)
 
-* [startbootstrap.com](http://startbootstrap.com/)
-* [bootstrapzero.com](http://bootstrapzero.com/)
-* [scoopthemes.com](http://www.scoopthemes.com/)
-* [templated.co](http://templated.co/)
-* [html5up.net](http://html5up.net/)
+* [startbootstrap.com](http://startbootstrap.com)
+* [scoopthemes.com](http://www.scoopthemes.com)
+* [bootstraptaste.com](https://bootstraptaste.com)
+* [templated.co](http://templated.co)
+* [html5up.net](http://html5up.net)
 
 {% include mathjax.html %}

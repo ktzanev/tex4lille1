@@ -52,7 +52,7 @@ $$
 \end{multline}
 ~~~~~~~
 
-- Il existe des versions étoilées `equation*`, `multiline*`,... sans numéro d'équation.
+- Il existe des versions étoilées `equation*`, `multline*`,... sans numéro d'équation.
 - On peut utiliser `\eqref{...}` à la place de `\ref{...}` pour obtenir, par exemple, (13) au lieu de 13.
 - Pour forcer la numérotation à gauche ou à droite, on peut utiliser les options de `\documentclass[...]{}` : `leqno` (l=left) et `reqno` (r=right).
 

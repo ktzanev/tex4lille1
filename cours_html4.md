@@ -14,7 +14,6 @@ codelang: xml
 
 ## Exemple de SVG
 
-<?xml version='1.0'?>
 <svg xmlns="http://www.w3.org/2000/svg"
         viewBox="-10 -10 20 20"
         width="200" height="200">
@@ -60,11 +59,15 @@ Pour que cette équivalence fonctionne il faut que on applique à tikzpicture le
     x1="10" y1="10" x2="90" y2="70" />
 </svg>
 
+[[GistRun]](https://gist.run/?id=11b6dcfe4a0a1105ba548b58b444fbbd)
+
 ~~~~~~~
 \path[draw=red, line width=2cm]
   (10,10) -- (90,70);
 ~~~~~~~
 {:.tex}
+
+
 
 ## Polygone
 
@@ -81,6 +84,8 @@ Il existe aussi `polyline` qui ne ferme pas automatiquement la courbe.
   <polygon fill="yellow" stroke="blue" stroke-width="2"
     points="15,90 30,50 30,10 70,10 70,50 85,90" />
 </svg>
+
+[[GistRun]](https://gist.run/?id=757b031952041390a78d7da856cb1a5a)
 
 ~~~~~~~
 \path[fill=yellow, draw=blue, line width=2cm]
@@ -99,6 +104,8 @@ Il existe aussi `polyline` qui ne ferme pas automatiquement la courbe.
   <rect stroke="black" fill="magenta" fill-opacity=".7"
     x="5" y="25" rx="10" ry="10" width="90" height="50"/>
 </svg>
+
+[[GistRun]](https://gist.run/?id=918c87d7e6b9bbaa83964229fc63b6b7)
 
 ~~~~~~~
 \path[draw=black, fill=magenta, fill opacity=.7, rounded corners=10cm]
@@ -120,6 +127,8 @@ Il existe aussi `polyline` qui ne ferme pas automatiquement la courbe.
   <ellipse fill="none" stroke="yellow" transform="rotate(30)"
     cx="0" cy="0" rx="15" ry="45" />
 </svg>
+
+[[GistRun]](https://gist.run/?id=908731b7b4249646cf176e3085c8b1ec)
 
 ~~~~~~~
 \path[fill=magenta]
@@ -143,6 +152,8 @@ Il existe aussi `polyline` qui ne ferme pas automatiquement la courbe.
 * Les lettre majuscules sont pour les coordonnées absolues, et les minuscules pour les coordonnées relatives.
 * `M` = Move, `H` = Horizontal line, `V` = Vertical line, `L` = Line, `C` = Cubic Bézier, `Q` = Quadratic Bézier, `A` = Arc, `Z` = close path
 
+
+[[GistRun]](https://gist.run/?id=f81dca3163fd738ef2c489a940823054)
 
 ~~~~~~~
 \path[draw=red] (5,5) -- ++(15,0)  -- ++(0,15) -- ++(35,35)
@@ -169,6 +180,8 @@ Pas de passage à la ligne automatique.
   <text x="10" y="20" fill="ForestGreen">Voilà !</text>
 </svg>
 
+[[GistRun]](https://gist.run/?id=328bef87915e66c038a7cafbd8e1de52)
+
 ~~~~~~~
 \node[ForestGreen, above right] at (10,20) {Voilà !};
 ~~~~~~~
@@ -189,6 +202,8 @@ Pas de passage à la ligne automatique.
   </g>
 </svg>
 
+[[GistRun]](https://gist.run/?id=431a7944e48bcf0faae92f5c3a4c3b43)
+
 ~~~~~~~
 \begin{scope}[fill=green, fill opacity=.49]
   \fill (30,30) circle(21);
@@ -202,13 +217,15 @@ Pas de passage à la ligne automatique.
 ## Avec img
 
 ~~~~~~~
-<img src="anonymus.svg" width="100" height="100">
-<img src="anonymus.svg" width="200" height="200">
-<img src="anonymus.svg" width="100" height="200">
+<img src="anonymous.svg" width="100" height="100">
+<img src="anonymous.svg" width="200" height="200">
+<img src="anonymous.svg" width="100" height="200">
 ~~~~~~~
 
 
-![Anonymus](assets/images/html4/anonymus.svg){:height="100px" width="100px"} ![Anonymus](assets/images/html4/anonymus.svg){:height="200px" width="200px"} ![Anonymus](assets/images/html4/anonymus.svg){:height="100px" width="200px"}
+![Anonymous](assets/images/html4/anonymous.svg){:height="100px" width="100px"} ![Anonymous](assets/images/html4/anonymous.svg){:height="200px" width="200px"} ![Anonymous](assets/images/html4/anonymous.svg){:height="100px" width="200px"}
+
+[[GistRun]](https://gist.run/?id=770faf461fa23a5f7e8649691f89c025)
 
 ## Comme fond
 
@@ -233,6 +250,8 @@ Pas de passage à la ligne automatique.
   }
 </style>
 ~~~~~~~
+
+[[GistRun]](https://gist.run/?id=e9e57f9d9f16d1cefe1daff780d28cd9)
 
 ## Directement dans le HTML5
 
@@ -275,6 +294,8 @@ Pas de passage à la ligne automatique.
 </svg>
 ~~~~~~~
 {:style="width:70%;display:inline-block;"}
+
+[[GistRun]](https://gist.run/?id=a8af296e19913d4ad0c55a9f4b1a000b)
 
 # Le système de coordonnées de SVG
 
@@ -325,4 +346,6 @@ On peut modifier tous les attributs SVG dit de _présentation_ avec du CSS. Tels
 
 L'utilisation de css dans un fichier SVG (qui est un fichier XML) est un peu différent qu'en HTML (et plus compliqué). On peut voir par exemple [cette page](http://tutorials.jenkov.com/svg/svg-and-css.html).
 
-Par contre pour styler un SVG imbriqué directement dans une page HTML, c'est très simple : on le faire comme pour les autres éléments de la page. On peut même utiliser des pseudo classes comme `:hover` [[exemple](http://dabblet.com/gist/05255bdb15ca64f6beac)].
+Par contre pour styler un SVG imbriqué directement dans une page HTML, c'est très simple : on le faire comme pour les autres éléments de la page. On peut même utiliser des pseudo classes comme `:hover`
+
+[[GistRun](https://gist.run/?id=6b665e685610711effcf97138fa3032b)].

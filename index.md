@@ -56,7 +56,8 @@ layout: default
   +   Bootstrap
   +   Thèmes libres
 
-{% comment %}
 - [Cours HTML 4](cours_html4.html) [27 et 28 mars 2017]
   +   SVG
+
+{% comment %}
 {% endcomment %}

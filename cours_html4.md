@@ -320,7 +320,7 @@ Pas de passage à la ligne automatique.
 * **Avec tout éditeur de texte :** Ce n'est pas le plus pratique, mais c'est bien utile pour pouvoir faire des petites corrections. Et c'est comme ça qu'on l'intègre directement dans le code HTML.
 * **[InkScape](https://inkscape.org) :** est un logiciel libre spécialement dédié à l'édition des SVG. Peut importer aussi de PDF et exporter en TikZ (avec un plugin). Les fichier SVG par défaut ne sont pas optimisés, il est préférable de les enregistrer avec « Optimized SVG ». _(L'équivalent payant est Adobe Illustrator.)_
 * **[svg-edit](https://svg-edit.github.io/svgedit/releases/svg-edit-2.8.1/svg-editor.html) :** est un éditeur en ligne. Moins performant que InkScape mais peut être utile si on ne dispose pas de InkScape.
-* **[GeoGebra](https://www.geogebra.org) :** peut exporter en SVG.
+* **[GeoGebra](https://www.geogebra.org) :** certaines versions (mais pas toutes) peuvent exporter en SVG.
 
 Aucun de ces éditeur ne permet de produire des SVG avec des formules mathématiques à l'intérieur (peut-être GeoGebra un peu).
 

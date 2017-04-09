@@ -67,7 +67,7 @@ Avec ces modèles qui utilisent la classe _standalone_ on crée des images au fo
     ⋮
 ~~~~~~
 
-Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/project/56938555de5631c80daec02d?r=3eb5cc58&rm=d&rs=b).
+Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/project/56938555de5631c80daec02d).
 
 ## Organisation des fichiers pour le mémoire ZUPdeCO
 
@@ -84,7 +84,7 @@ Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/proj
     ⋮
 ~~~~~~
 
-Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/project/56939047de5631c80daec1e5?r=3eb5cc58&rm=d&rs=b).
+Vous pouvez dupliquer dans ShareLaTeX [ce projet](https://fr.sharelatex.com/project/56939047de5631c80daec1e5).
 
 ## «Recommandations» générales (pour ShareLaTeX)
 
